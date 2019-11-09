@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #f3f3f3;
+  max-width: 1370px;
+  height: 100%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 20px; }
+
+div {
+  box-sizing: border-box; }
+
+header {
+  background: url("../img/banner.jpg") no-repeat center top/cover;
+  height: 740px;
+  width: 100%; }
+
+.wrapper {
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto; }
+
+.logo__bouncy {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #f3f3f3;
+  padding-top: 50px; }
+  .logo__bouncy__button {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f3f3f3; }
+.logo .menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  margin-top: -28px; }
+  .logo .menu__link {
+    display: block;
+    float: left;
+    margin-left: 30px; }
+    .logo .menu__link__button1 {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 50px;
+      padding: 2px 8px 2px 8px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 12px;
+      color: #f3f3f3; }
+    .logo .menu__link__button1:hover {
+      background-color: #19bd9a;
+      transition: all 0.6s ease; }
+    .logo .menu__link__button {
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 12px;
+      color: #f3f3f3; }
+.logo .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; }
+  .logo .heading__title {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 22px;
+    font-size: 24px;
+    font-family: "Fira Code";
+    margin-top: 220px; }
+  .logo .heading__subtitle {
+    font-size: 12px;
+    max-width: 620px;
+    margin-top: 26px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    word-wrap: break-word; }
+.logo .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px; }
+  .logo .button__list {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #19bd9a; }
+    .logo .button__list__start {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: #f3f3f3; }
+  .logo .button__list:hover {
+    background-color: #19bd9a;
+    transition: all 2s ease; }
+
+/*# sourceMappingURL=main.css.map */

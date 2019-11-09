@@ -1,0 +1,25 @@
+{
+  "name": "maket_one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriyBortnik/First_Maket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriyBortnik/First_Maket/issues"
+  },
+  "homepage": "https://github.com/YuriyBortnik/First_Maket#readme"
+}
