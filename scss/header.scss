@@ -1,7 +1,12 @@
+::selection{
+  background: #000;
+  color: #fff;
+}
+
+
 body {
   margin: 0;
   padding: 0;
-  color: #f3f3f3;
   max-width: 1370px;
   height: 100%;
   font-family: "Open Sans", Arial, sans-serif;
@@ -21,11 +26,12 @@ header {
 .wrapper {
   max-width: 1170px;
   height: 100%;
-  //border: 2px solid red;
+  //border: 1px solid red;
   margin: 0 auto;
 }
 
 .logo {
+
 
   &__bouncy {
     display: block;
@@ -96,6 +102,7 @@ header {
       font-size: 24px;
       font-family: "Fira Code";
       margin-top: 220px;
+      color: #fff;
     }
 
     &__subtitle {
@@ -106,6 +113,7 @@ header {
       letter-spacing: 1px;
       word-spacing: 4px;
       word-wrap: break-word;
+      color: #fff;
     }
   }
 
@@ -137,6 +145,67 @@ header {
       background-color: #19bd9a;
       transition: all 2s ease;
     }
+  }
+}
+
+.text {
+  background-color: #fff;
+  height: 487px;
+  padding-left: 100px;
+
+  &__titel {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Fira Code";
+    letter-spacing: 4px;
+    word-spacing: 16px;
+    margin-top: 114px;
+    color: #333b46;
+  }
+
+  &__desc {
+    font-size: 12px;
+    max-width: 465px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    word-wrap: break-word;
+    color: #81868e;
+    margin-top: 50px;
+  }
+
+  .text-bat {
+    margin-top: 50px;
+
+    &__batton {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 20px;
+      padding: 3px 20px 9px 20px;
+      letter-spacing: 4px;
+      color: #333b46;
+
+      &__read {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #333b46;
+        font-size: 10px;
+      }
+    }
+
+    &__batton:hover {
+      background-color: #19bd9a;
+      transition: all 2s ease;
+    }
+  }
+
+  .monitor {
+    background: url("../img/mobi.png") no-repeat;
+    height: 340px;
+    width: 205px;
+    float: right;
+    margin-right: 100px;
+    //margin: 0px;
 
   }
 }

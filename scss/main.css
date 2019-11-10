@@ -1,7 +1,10 @@
+::selection {
+  background: #000;
+  color: #fff; }
+
 body {
   margin: 0;
   padding: 0;
-  color: #f3f3f3;
   max-width: 1370px;
   height: 100%;
   font-family: "Open Sans", Arial, sans-serif;
@@ -73,7 +76,8 @@ header {
     word-spacing: 22px;
     font-size: 24px;
     font-family: "Fira Code";
-    margin-top: 220px; }
+    margin-top: 220px;
+    color: #fff; }
   .logo .heading__subtitle {
     font-size: 12px;
     max-width: 620px;
@@ -81,7 +85,8 @@ header {
     line-height: 18px;
     letter-spacing: 1px;
     word-spacing: 4px;
-    word-wrap: break-word; }
+    word-wrap: break-word;
+    color: #fff; }
 .logo .button {
   display: flex;
   justify-content: center;
@@ -103,5 +108,50 @@ header {
   .logo .button__list:hover {
     background-color: #19bd9a;
     transition: all 2s ease; }
+
+.text {
+  background-color: #fff;
+  height: 487px;
+  padding-left: 100px; }
+  .text__titel {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Fira Code";
+    letter-spacing: 4px;
+    word-spacing: 16px;
+    margin-top: 114px;
+    color: #333b46; }
+  .text__desc {
+    font-size: 12px;
+    max-width: 465px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    word-wrap: break-word;
+    color: #81868e;
+    margin-top: 50px; }
+  .text .text-bat {
+    margin-top: 50px; }
+    .text .text-bat__batton {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 20px;
+      padding: 3px 20px 9px 20px;
+      letter-spacing: 4px;
+      color: #333b46; }
+      .text .text-bat__batton__read {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #333b46;
+        font-size: 10px; }
+    .text .text-bat__batton:hover {
+      background-color: #19bd9a;
+      transition: all 2s ease; }
+  .text .monitor {
+    background: url("../img/mobi.png") no-repeat;
+    height: 340px;
+    width: 205px;
+    float: right;
+    margin-right: 100px; }
 
 /*# sourceMappingURL=main.css.map */
