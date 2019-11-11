@@ -1,20 +1,6 @@
-::selection{
+::selection {
   background: #000;
   color: #fff;
-}
-
-
-body {
-  margin: 0;
-  padding: 0;
-  max-width: 1370px;
-  height: 100%;
-  font-family: "Open Sans", Arial, sans-serif;
-  font-size: 20px;
-}
-
-div {
-  box-sizing: border-box;
 }
 
 header {
@@ -31,32 +17,32 @@ header {
 }
 
 .logo {
-
-
   &__bouncy {
     display: block;
+    padding-top: 50px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
     color: #f3f3f3;
-    padding-top: 50px;
+
 
     &__button {
       display: flex;
+      font-weight: bold;
       text-decoration: none;
       text-transform: uppercase;
       font-size: 16px;
-      font-weight: bold;
       color: #f3f3f3;
     }
   }
 
   .menu {
+    padding: 0;
+    //margin: 0;
+    margin-top: -28px;
     display: flex;
     justify-content: flex-end;
-    padding: 0;
-    margin: 0;
-    margin-top: -28px;
+
 
     &__link {
       display: block;
@@ -74,9 +60,11 @@ header {
         color: #f3f3f3;
       }
 
-      &__button1:hover {
-        background-color: #19bd9a;
-        transition: all 0.6s ease;
+      &__button1 {
+        &:hover {
+          background-color: #19bd9a;
+          transition: all 0.6s ease;
+        }
       }
 
       &__button {
@@ -100,7 +88,7 @@ header {
       letter-spacing: 6px;
       word-spacing: 22px;
       font-size: 24px;
-      font-family: "Fira Code";
+      font-family: 'Libre Baskerville', serif;
       margin-top: 220px;
       color: #fff;
     }
@@ -132,7 +120,6 @@ header {
       letter-spacing: 4px;
       color: #19bd9a;
 
-
       &__start {
         text-decoration: none;
         text-transform: uppercase;
@@ -141,22 +128,25 @@ header {
       }
     }
 
-    &__list:hover {
-      background-color: #19bd9a;
-      transition: all 2s ease;
+    &__list {
+      &:hover {
+        background-color: #19bd9a;
+        transition: all 2s ease;
+      }
     }
   }
 }
 
 .text {
-  background-color: #fff;
-  height: 487px;
   padding-left: 100px;
+  height: 487px;
+  background-color: #fff;
+
 
   &__titel {
     text-transform: uppercase;
     font-size: 14px;
-    font-family: "Fira Code";
+    font-family: 'Libre Baskerville', serif;
     letter-spacing: 4px;
     word-spacing: 16px;
     margin-top: 114px;
@@ -193,9 +183,11 @@ header {
       }
     }
 
-    &__batton:hover {
-      background-color: #19bd9a;
-      transition: all 2s ease;
+    &__batton {
+      &:hover {
+        background-color: #19bd9a;
+        transition: all 2s ease;
+      }
     }
   }
 
@@ -205,7 +197,6 @@ header {
     width: 205px;
     float: right;
     margin-right: 100px;
-    //margin: 0px;
 
   }
 }
