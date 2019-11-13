@@ -54,7 +54,6 @@
       &__icons {
         &:hover {
           background-color: #19bd9a;
-          transition: all 0.5 ss ease;
         }
       }
     }
@@ -96,32 +95,33 @@
       color: #19bd9a;
     }
   }
+}
 
-  .projekts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 235px;
-    text-align: center;
+.projekts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 235px;
+  background-color: #fff;
+  text-align: center;
 
-    &__title {
-      font-family: 'Libre Baskerville', serif;
-      font-size: 13px;
-      line-height: 18px;
-      letter-spacing: 3px;
-      word-spacing: 5px;
-      color: #333b46;
-    }
+  &__title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: #333b46;
+  }
 
-    &__text {
-      width: 490px;
-      font-size: 10px;
-      line-height: 18px;
-      letter-spacing: 1px;
-      word-spacing: 5px;
-      color: #6d727a;
-    }
+  &__text {
+    width: 490px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: #6d727a;
   }
 }
 

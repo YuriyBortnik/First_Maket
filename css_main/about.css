@@ -39,8 +39,7 @@
       .section .hovers .link__icons__btn {
         fill: white; }
     .section .hovers .link__icons:hover {
-      background-color: #19bd9a;
-      transition: all 0.5 ss ease; }
+      background-color: #19bd9a; }
   .section .headline {
     height: 155px; }
     .section .headline__title {
@@ -68,24 +67,26 @@
       color: #6d727a; }
     .section .headline .colortext {
       color: #19bd9a; }
-  .section .projekts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 235px;
-    text-align: center; }
-    .section .projekts__title {
-      font-family: 'Libre Baskerville', serif;
-      font-size: 13px;
-      line-height: 18px;
-      letter-spacing: 3px;
-      word-spacing: 5px;
-      color: #333b46; }
-    .section .projekts__text {
-      width: 490px;
-      font-size: 10px;
-      line-height: 18px;
-      letter-spacing: 1px;
-      word-spacing: 5px;
-      color: #6d727a; }
+
+.projekts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 235px;
+  background-color: #fff;
+  text-align: center; }
+  .projekts__title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: #333b46; }
+  .projekts__text {
+    width: 490px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: #6d727a; }
