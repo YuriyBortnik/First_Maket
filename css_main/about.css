@@ -1,0 +1,92 @@
+.section {
+  background-color: #f3f3f3;
+  height: 618px;
+  max-width: 100%; }
+  .section .section-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; }
+    .section .section-first__caption {
+      margin-top: 80px;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: 'Libre Baskerville', serif;
+      letter-spacing: 4px;
+      word-spacing: 13px;
+      color: #333b46; }
+    .section .section-first__text {
+      margin-top: 42px;
+      width: 462px;
+      font-size: 10px;
+      letter-spacing: 1px;
+      word-spacing: 4px;
+      color: #6d727a; }
+  .section .hovers .link {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 52px; }
+    .section .hovers .link__icons {
+      display: block;
+      padding: 15px;
+      margin: 15px;
+      height: 25px;
+      width: 25px;
+      border-radius: 100%;
+      background-color: #6d727a; }
+      .section .hovers .link__icons__btn {
+        fill: white; }
+    .section .hovers .link__icons:hover {
+      background-color: #19bd9a; }
+  .section .headline {
+    height: 155px; }
+    .section .headline__title {
+      margin-top: 55px;
+      width: 50%;
+      font-size: 13px;
+      text-transform: capitalize;
+      color: #333b46; }
+    .section .headline__text {
+      width: 35%;
+      float: left;
+      font-size: 10px;
+      line-height: 18px;
+      letter-spacing: 1px;
+      word-spacing: 5px;
+      color: #6d727a; }
+    .section .headline__text-finish {
+      margin-top: -30px;
+      width: 55%;
+      float: right;
+      font-size: 10px;
+      line-height: 18px;
+      letter-spacing: 1px;
+      word-spacing: 5px;
+      color: #6d727a; }
+    .section .headline .color-text {
+      color: #19bd9a; }
+
+.projekts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 235px;
+  background-color: #fff;
+  text-align: center; }
+  .projekts__title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: #333b46; }
+  .projekts__text {
+    width: 490px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: #6d727a; }
