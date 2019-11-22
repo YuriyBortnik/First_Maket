@@ -1,21 +1,21 @@
 .services {
   background-color: #f3f3f3;
   height: 635px; }
-  .services .graphic {
+  .services__graphic {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center; }
-    .services .graphic__heading {
+    .services__graphic__heading {
       margin-top: 80px;
       font-family: 'Libre Baskerville', serif;
       text-transform: uppercase;
       letter-spacing: 3px;
       word-spacing: 5px;
-      font-size: 20px;
+      font-size: 16px;
       color: #333b46; }
-    .services .graphic__text {
+    .services__graphic__text {
       width: 660px;
       font-size: 14px;
       letter-spacing: 1px;
@@ -33,7 +33,7 @@
         .services .wrapper-first .designer .presention__icon {
           display: block;
           padding: 15px;
-          margin: 15px;
+          margin-top: 20px;
           height: 25px;
           width: 25px;
           border-radius: 100%;
@@ -42,37 +42,30 @@
             fill: white; }
         .services .wrapper-first .designer .presention__icon:hover {
           background-color: #19bd9a; }
-    .services .wrapper-first .graphic-design {
+    .services .wrapper-first .designer {
       display: flex;
-      justify-content: flex-start;
       flex-direction: column;
-      margin-top: 67px;
-      padding-left: 50px;
-      width: 390px; }
-      .services .wrapper-first .graphic-design__titel {
+      margin-top: 20px;
+      margin-right: -245px;
+      width: 390px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      line-height: 25px;
+      color: #333b46; }
+      .services .wrapper-first .designer__titel {
+        margin-top: 35px;
         text-transform: capitalize;
-        font-size: 14px; }
-      .services .wrapper-first .graphic-design__text {
-        margin-top: 25px;
-        font-size: 12px;
-        letter-spacing: 1px;
-        word-spacing: 2px;
-        line-height: 25px;
-        color: #333b46; }
-      .services .wrapper-first .graphic-design__text-end {
-        margin-top: 40px;
-        font-size: 12px;
-        letter-spacing: 1px;
-        word-spacing: 2px;
-        line-height: 25px;
-        color: #333b46; }
-      .services .wrapper-first .graphic-design .color-text {
-        color: #19bd9a; }
+        font-size: 16px; }
+      .services .wrapper-first .designer__text {
+        margin-top: 15px; }
+      .services .wrapper-first .designer__end {
+        margin-top: 30px; }
     .services .wrapper-first .progress {
       display: flex;
       justify-content: flex-end;
-      margin-top: 145px;
-      padding-left: 140px; }
+      margin-top: 115px;
+      padding-left: 480px; }
       .services .wrapper-first .progress .progress-circle {
         font-size: 20px;
         margin: 20px;
@@ -89,6 +82,7 @@
           font-size: 14px;
           color: #047378; }
       .services .wrapper-first .progress .progress-circle:after {
+        content: " ";
         border: none;
         position: absolute;
         top: 5px;
@@ -98,8 +92,7 @@
         border-radius: 50%;
         width: 90px;
         height: 90px;
-        background-color: #f3f3f3;
-        content: " "; }
+        background-color: #f3f3f3; }
       .services .wrapper-first .progress .progress-circle span {
         position: absolute;
         line-height: 5em;

@@ -1,2 +1,27 @@
-.opa {
-  color: red; }
+.director {
+  background: url("../img/pipl2.jpg") no-repeat center top/cover;
+  height: 390px;
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 25px; }
+  .director__titel {
+    margin: 0;
+    padding-top: 80px;
+    font-size: 16px;
+    text-transform: uppercase; }
+  .director__text {
+    margin-top: 60px;
+    width: 50%; }
+  .director__titelStart {
+    margin-top: 60px;
+    text-transform: uppercase; }
+  .director__titelFinish {
+    margin-top: -8px;
+    text-transform: uppercase; }
+  .director__img {
+    margin-top: -40px;
+    height: 330px;
+    width: 410px;
+    background: url("../img/monitor.jpg") no-repeat;
+    float: right; }

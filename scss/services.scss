@@ -2,7 +2,7 @@
   background-color: #f3f3f3;
   height: 635px;
 
-  .graphic {
+  &__graphic {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
       text-transform: uppercase;
       letter-spacing: 3px;
       word-spacing: 5px;
-      font-size: 20px;
+      font-size: 16px;
       color: #333b46;
     }
 
@@ -37,14 +37,13 @@
       display: block;
       margin-top: 62px;
 
-
       .presention {
         display: block;
 
         &__icon {
           display: block;
           padding: 15px;
-          margin: 15px;
+          margin-top: 20px;
           height: 25px;
           width: 25px;
           border-radius: 100%;
@@ -63,47 +62,41 @@
       }
     }
 
-    .graphic-design {
+    .designer {
       display: flex;
-      justify-content: flex-start;
+      //justify-content: flex-start;
       flex-direction: column;
-      margin-top: 67px;
-      padding-left: 50px;
+      margin-top: 20px;
+      margin-right: -245px;
+      //margin-top: 67px;
+      //padding-left: 50px;
       width: 390px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      line-height: 25px;
+      color: #333b46;
 
       &__titel {
+        margin-top: 35px;
         text-transform: capitalize;
-        font-size: 14px;
+        font-size: 16px;
       }
 
       &__text {
-        margin-top: 25px;
-        font-size: 12px;
-        letter-spacing: 1px;
-        word-spacing: 2px;
-        line-height: 25px;
-        color: #333b46;
+        margin-top: 15px;
       }
 
-      &__text-end {
-        margin-top: 40px;
-        font-size: 12px;
-        letter-spacing: 1px;
-        word-spacing: 2px;
-        line-height: 25px;
-        color: #333b46;
-      }
-
-      .color-text {
-        color: #19bd9a;
+      &__end {
+        margin-top: 30px;
       }
     }
 
     .progress {
       display: flex;
       justify-content: flex-end;
-      margin-top: 145px;
-      padding-left: 140px;
+      margin-top: 115px;
+      padding-left: 480px;
 
       //fail
       .progress-circle {
@@ -126,18 +119,20 @@
       }
 
       //fail
-      .progress-circle:after {
-        border: none;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        text-align: center;
-        display: block;
-        border-radius: 50%;
-        width: 90px;
-        height: 90px;
-        background-color: #f3f3f3;
-        content: " ";
+      .progress-circle {
+        &:after {
+          content: " ";
+          border: none;
+          position: absolute;
+          top: 5px;
+          left: 5px;
+          text-align: center;
+          display: block;
+          border-radius: 50%;
+          width: 90px;
+          height: 90px;
+          background-color: #f3f3f3;
+        }
       }
 
       //fail

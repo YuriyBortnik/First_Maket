@@ -2,24 +2,24 @@
   background-color: #f3f3f3;
   height: 618px;
   max-width: 100%; }
-  .section .section-first {
+  .section__first {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center; }
-    .section .section-first__caption {
-      margin-top: 80px;
+    .section__first__caption {
+      margin-top: 70px;
       text-transform: uppercase;
-      font-size: 14px;
-      font-family: 'Libre Baskerville', serif;
+      font-size: 16px;
+      font-family: 'Source Sans Pro', sans-serif;
       letter-spacing: 4px;
-      word-spacing: 13px;
+      word-spacing: 12px;
       color: #333b46; }
-    .section .section-first__text {
-      margin-top: 42px;
+    .section__first__text {
+      margin-top: 30px;
       width: 462px;
-      font-size: 10px;
+      font-size: 14px;
       letter-spacing: 1px;
       word-spacing: 4px;
       color: #6d727a; }
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    margin-top: 52px; }
+    margin-top: 45px; }
     .section .hovers .link__icons {
       display: block;
       padding: 15px;
@@ -45,28 +45,21 @@
     .section .headline__title {
       margin-top: 55px;
       width: 50%;
-      font-size: 13px;
+      font-size: 16px;
       text-transform: capitalize;
       color: #333b46; }
+    .section .headline__lion {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      word-spacing: 5px;
+      color: #6d727a; }
     .section .headline__text {
-      width: 35%;
-      float: left;
-      font-size: 10px;
-      line-height: 18px;
-      letter-spacing: 1px;
-      word-spacing: 5px;
-      color: #6d727a; }
+      width: 32%; }
     .section .headline__text-finish {
-      margin-top: -30px;
-      width: 55%;
-      float: right;
-      font-size: 10px;
-      line-height: 18px;
-      letter-spacing: 1px;
-      word-spacing: 5px;
-      color: #6d727a; }
-    .section .headline .color-text {
-      color: #19bd9a; }
+      width: 58%; }
 
 .projekts {
   display: flex;
@@ -75,18 +68,22 @@
   flex-direction: column;
   height: 235px;
   background-color: #fff;
-  text-align: center; }
+  text-align: center;
+  word-spacing: 5px; }
   .projekts__title {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 13px;
-    line-height: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
     letter-spacing: 3px;
-    word-spacing: 5px;
     color: #333b46; }
   .projekts__text {
-    width: 490px;
-    font-size: 10px;
-    line-height: 18px;
+    width: 540px;
+    font-size: 14px;
+    line-height: 30px;
     letter-spacing: 1px;
-    word-spacing: 5px;
     color: #6d727a; }
+
+.colorText {
+  color: #19bd9a; }
+
+.colorBlack {
+  color: #000; }
