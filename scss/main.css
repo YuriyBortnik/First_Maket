@@ -121,7 +121,7 @@ header {
       border-style: solid;
       border-width: 1px;
       border-radius: 20px;
-      padding: 3px 20px 9px 20px;
+      padding: 9px 20px 9px 20px;
       letter-spacing: 4px;
       color: #333b46; }
     .text__bat__read {
@@ -159,7 +159,6 @@ header {
     .section__first__text {
       margin-top: 30px;
       width: 462px;
-      font-size: 14px;
       letter-spacing: 1px;
       word-spacing: 4px;
       color: #6d727a; }
@@ -191,7 +190,6 @@ header {
     .section .headline__lion {
       display: flex;
       justify-content: space-between;
-      font-size: 14px;
       line-height: 25px;
       letter-spacing: 1px;
       word-spacing: 5px;
@@ -217,7 +215,6 @@ header {
     color: #333b46; }
   .projekts__text {
     width: 540px;
-    font-size: 14px;
     line-height: 30px;
     letter-spacing: 1px;
     color: #6d727a; }
@@ -296,13 +293,13 @@ body {
     letter-spacing: 1px;
     word-spacing: 4px; }
   .submit__now {
-    margin-top: 38px;
+    margin-top: 46px;
     float: right; }
     .submit__now__link {
       border-style: solid;
       border-width: 1px;
       border-radius: 20px;
-      padding: 3px 20px 9px 20px;
+      padding: 9px 20px 9px 20px;
       letter-spacing: 1px;
       color: #fff; }
     .submit__now__read {
@@ -333,7 +330,6 @@ body {
       color: #333b46; }
     .services__graphic__text {
       width: 660px;
-      font-size: 14px;
       letter-spacing: 1px;
       word-spacing: 3px;
       line-height: 30px;

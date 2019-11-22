@@ -21,7 +21,6 @@
 
     &__text {
       width: 660px;
-      font-size: 14px;
       letter-spacing: 1px;
       word-spacing: 3px;
       line-height: 30px;
@@ -64,12 +63,9 @@
 
     .designer {
       display: flex;
-      //justify-content: flex-start;
       flex-direction: column;
       margin-top: 20px;
       margin-right: -245px;
-      //margin-top: 67px;
-      //padding-left: 50px;
       width: 390px;
       font-size: 14px;
       letter-spacing: 1px;
