@@ -1,0 +1,325 @@
+.back {
+  max-height: 1640px;
+  background-color: #f3f3f3;
+  padding-bottom: 100px;
+
+  .portfolio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #333b46;
+
+    .portfolio-start {
+      &__titel {
+        margin-top: 80px;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      &__text {
+        display: inline-block;
+        margin-top: 40px;
+        width: 490px;
+        line-height: 24px;
+      }
+
+      &__menu {
+        display: flex;
+        justify-content: center;
+
+        .menuCenter {
+          display: inline-block;
+          margin-top: 60px;
+
+          &__element {
+            display: block;
+            float: left;
+          }
+
+          &__link {
+            display: inline-block;
+            position: relative;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bolder;
+            color: #464646;
+
+            &:before {
+              display: block;
+              position: absolute;
+              content: "";
+              height: 2px;
+              width: 0;
+              background: #19bd9a;
+              transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+              left: 50%;
+              bottom: 0;
+            }
+
+            &:after {
+              display: block;
+              position: absolute;
+              content: "";
+              height: 2px;
+              width: 0;
+              background-color: #19bd9a;
+              transition: width 0.3s ease-in-out;
+              left: 50%;
+              bottom: 0;
+            }
+
+            &:hover {
+              &:before {
+                width: 50%;
+                left: 0;
+              }
+            }
+
+            &:hover {
+              &:after {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .gallery {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(25, 2vw);
+    grid-gap: 11px;
+
+    &__item1 {
+      background: url("../img/painting1.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 10;
+    }
+
+    &__item2 {
+      background: url("../img/painting2.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 7;
+    }
+
+    &__item3 {
+      background: url("../img/painting3.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 9;
+    }
+
+    &__item4 {
+      background: url("../img/painting4.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 10;
+    }
+
+    &__item5 {
+      background: url("../img/painting5.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 10;
+      grid-row-end: 20;
+    }
+
+    &__item6 {
+      background: url("../img/painting6.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 7;
+      grid-row-end: 16;
+    }
+
+    &__item7 {
+      background: url("../img/painting7.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 9;
+      grid-row-end: 19;
+    }
+
+    &__item8 {
+      background: url("../img/painting8.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 10;
+      grid-row-end: 16;
+    }
+
+    &__item9 {
+      background: url("../img/painting9.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 20;
+      grid-row-end: 26;
+    }
+
+    &__item10 {
+      background: url("../img/painting10.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 16;
+      grid-row-end: 26;
+    }
+
+    &__item11 {
+      background: url("../img/painting11.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 19;
+      grid-row-end: 26;
+    }
+
+    &__item12 {
+      background: url("../img/painting12.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 16;
+      grid-row-end: 26;
+    }
+
+    &__item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+    }
+
+    .hoverText {
+      position: relative;
+
+      &__box {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+
+      &__start {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #19bd9a;
+      }
+
+      &__finish {
+        margin-top: 40px;
+        padding-bottom: 30px;
+        font-size: 8px;
+        line-height: 15px;
+        color: #fff;
+      }
+
+      .rowSvg {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 1px;
+
+        .svg {
+          padding: 10px;
+          margin: 5px;
+          border-radius: 100%;
+          background-color: #000;
+          height: 15px;
+          width: 15px;
+
+          svg {
+            fill: white;
+          }
+
+          &:hover {
+            background-color: #19bd9a;
+          }
+        }
+      }
+
+      &:before {
+        content: "";
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #000;
+        height: 100%;
+        width: 100%;
+        opacity: 0.9;
+      }
+
+      &:hover {
+        &:before {
+          display: block;
+        }
+
+        .hoverText__box {
+          display: block;
+
+          &__start {
+            display: block;
+          }
+
+          &__finish {
+            display: block;
+          }
+
+          .svg {
+            display: block;
+
+            &__first {
+              display: block;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .finishPro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 200px;
+    background: url("../img/black.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    letter-spacing: 1px;
+
+    &__submit {
+      margin-top: 20px;
+      text-decoration: none;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 20px;
+      padding: 9px 20px 9px 20px;
+      letter-spacing: 1px;
+      color: #fff;
+
+      &:hover {
+        background: #19bd9a;
+      }
+    }
+  }
+}
+

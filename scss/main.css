@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1370px;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
 ::selection {
   background: #000;
   color: #fff; }
@@ -225,15 +234,6 @@ header {
 .colorBlack {
   color: #000; }
 
-body {
-  margin: 0;
-  padding: 0;
-  max-width: 1370px;
-  height: 100%;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px; }
-
 .vintage {
   display: flex;
   height: 318px;
@@ -313,7 +313,7 @@ body {
 
 .services {
   background-color: #f3f3f3;
-  height: 635px; }
+  height: 636px; }
   .services__graphic {
     display: flex;
     justify-content: center;
@@ -336,310 +336,123 @@ body {
       color: #333b46; }
   .services .wrapper-first {
     display: flex;
-    flex-flow: row nowrap; }
-    .services .wrapper-first .designer {
+    margin-top: 30px; }
+    .services .wrapper-first .designer .presention {
       display: block;
-      margin-top: 62px; }
-      .services .wrapper-first .designer .presention {
-        display: block; }
-        .services .wrapper-first .designer .presention__icon {
-          display: block;
-          padding: 15px;
-          margin-top: 20px;
-          height: 25px;
-          width: 25px;
-          border-radius: 100%;
-          background-color: #6d727a; }
-          .services .wrapper-first .designer .presention__icon__btr {
-            fill: white; }
-        .services .wrapper-first .designer .presention__icon:hover {
-          background-color: #19bd9a; }
-    .services .wrapper-first .designer {
+      padding: 0; }
+      .services .wrapper-first .designer .presention__icon {
+        display: block;
+        padding: 15px;
+        margin-top: 20px;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+        background-color: #6d727a; }
+        .services .wrapper-first .designer .presention__icon__btr {
+          fill: white; }
+      .services .wrapper-first .designer .presention__icon:hover {
+        background-color: #19bd9a; }
+    .services .wrapper-first .designers {
       display: flex;
       flex-direction: column;
-      margin-top: 20px;
-      margin-right: -245px;
-      width: 390px;
-      font-size: 14px;
+      padding-left: 46px;
+      width: 440px;
       letter-spacing: 1px;
       word-spacing: 2px;
       line-height: 25px;
       color: #333b46; }
-      .services .wrapper-first .designer__titel {
-        margin-top: 35px;
+      .services .wrapper-first .designers__titel {
+        margin-top: 20px;
         text-transform: capitalize;
         font-size: 16px; }
-      .services .wrapper-first .designer__text {
+      .services .wrapper-first .designers__text {
         margin-top: 15px; }
-      .services .wrapper-first .designer__end {
+      .services .wrapper-first .designers__end {
         margin-top: 30px; }
-    .services .wrapper-first .progress {
+    .services .wrapper-first .bars {
       display: flex;
-      justify-content: flex-end;
-      margin-top: 115px;
-      padding-left: 480px; }
-      .services .wrapper-first .progress .progress-circle {
-        font-size: 20px;
-        margin: 20px;
+      align-items: center;
+      padding-left: 107px; }
+      .services .wrapper-first .bars .progressCircle {
         position: relative;
-        padding: 0;
-        width: 5em;
-        height: 5em;
-        background-color: #047378;
-        border-radius: 50%; }
-        .services .wrapper-first .progress .progress-circle .branding {
-          display: flex;
-          justify-content: center;
-          margin-top: 115px;
-          font-size: 14px;
-          color: #047378; }
-      .services .wrapper-first .progress .progress-circle:after {
-        content: " ";
-        border: none;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        text-align: center;
-        display: block;
+        display: inline-block;
+        margin: 20px;
+        width: 134px;
+        height: 134px;
         border-radius: 50%;
-        width: 90px;
-        height: 90px;
-        background-color: #f3f3f3; }
-      .services .wrapper-first .progress .progress-circle span {
-        position: absolute;
-        line-height: 5em;
-        width: 5em;
-        text-align: center;
-        display: block;
-        color: #81868e;
-        z-index: 2; }
-      .services .wrapper-first .progress .left-half-clipper {
-        border-radius: 50%;
-        width: 5em;
-        height: 5em;
-        position: absolute;
-        clip: rect(0, 5em, 5em, 2.5em); }
-      .services .wrapper-first .progress .progress-circle.over50 .left-half-clipper {
-        clip: rect(auto, auto, auto, auto); }
-      .services .wrapper-first .progress .value-bar {
-        position: absolute;
-        clip: rect(0, 2.5em, 5em, 0);
-        width: 5em;
-        height: 5em;
-        border-radius: 50%;
-        border: 0.45em solid #19bd9a;
-        box-sizing: border-box; }
-      .services .wrapper-first .progress .progress-circle.over50 .first50-bar {
-        position: absolute;
-        clip: rect(0, 5em, 5em, 2.5em);
-        background-color: #19bd9a;
-        border-radius: 50%;
-        width: 5em;
-        height: 5em; }
-      .services .wrapper-first .progress .progress-circle:not(.over50) .first50-bar {
-        display: none; }
-      .services .wrapper-first .progress .progress-circle.p0 .value-bar {
-        display: none; }
-      .services .wrapper-first .progress .progress-circle.p1 .value-bar {
-        transform: rotate(4deg); }
-      .services .wrapper-first .progress .progress-circle.p2 .value-bar {
-        transform: rotate(7deg); }
-      .services .wrapper-first .progress .progress-circle.p3 .value-bar {
-        transform: rotate(11deg); }
-      .services .wrapper-first .progress .progress-circle.p4 .value-bar {
-        transform: rotate(14deg); }
-      .services .wrapper-first .progress .progress-circle.p5 .value-bar {
-        transform: rotate(18deg); }
-      .services .wrapper-first .progress .progress-circle.p6 .value-bar {
-        transform: rotate(22deg); }
-      .services .wrapper-first .progress .progress-circle.p7 .value-bar {
-        transform: rotate(25deg); }
-      .services .wrapper-first .progress .progress-circle.p8 .value-bar {
-        transform: rotate(29deg); }
-      .services .wrapper-first .progress .progress-circle.p9 .value-bar {
-        transform: rotate(32deg); }
-      .services .wrapper-first .progress .progress-circle.p10 .value-bar {
-        transform: rotate(36deg); }
-      .services .wrapper-first .progress .progress-circle.p11 .value-bar {
-        transform: rotate(40deg); }
-      .services .wrapper-first .progress .progress-circle.p12 .value-bar {
-        transform: rotate(43deg); }
-      .services .wrapper-first .progress .progress-circle.p13 .value-bar {
-        transform: rotate(47deg); }
-      .services .wrapper-first .progress .progress-circle.p14 .value-bar {
-        transform: rotate(50deg); }
-      .services .wrapper-first .progress .progress-circle.p15 .value-bar {
-        transform: rotate(54deg); }
-      .services .wrapper-first .progress .progress-circle.p16 .value-bar {
-        transform: rotate(58deg); }
-      .services .wrapper-first .progress .progress-circle.p17 .value-bar {
-        transform: rotate(61deg); }
-      .services .wrapper-first .progress .progress-circle.p18 .value-bar {
-        transform: rotate(65deg); }
-      .services .wrapper-first .progress .progress-circle.p19 .value-bar {
-        transform: rotate(68deg); }
-      .services .wrapper-first .progress .progress-circle.p20 .value-bar {
-        transform: rotate(72deg); }
-      .services .wrapper-first .progress .progress-circle.p21 .value-bar {
-        transform: rotate(76deg); }
-      .services .wrapper-first .progress .progress-circle.p22 .value-bar {
-        transform: rotate(79deg); }
-      .services .wrapper-first .progress .progress-circle.p23 .value-bar {
-        transform: rotate(83deg); }
-      .services .wrapper-first .progress .progress-circle.p24 .value-bar {
-        transform: rotate(86deg); }
-      .services .wrapper-first .progress .progress-circle.p25 .value-bar {
-        transform: rotate(90deg); }
-      .services .wrapper-first .progress .progress-circle.p26 .value-bar {
-        transform: rotate(94deg); }
-      .services .wrapper-first .progress .progress-circle.p27 .value-bar {
-        transform: rotate(97deg); }
-      .services .wrapper-first .progress .progress-circle.p28 .value-bar {
-        transform: rotate(101deg); }
-      .services .wrapper-first .progress .progress-circle.p29 .value-bar {
-        transform: rotate(104deg); }
-      .services .wrapper-first .progress .progress-circle.p30 .value-bar {
-        transform: rotate(108deg); }
-      .services .wrapper-first .progress .progress-circle.p31 .value-bar {
-        transform: rotate(112deg); }
-      .services .wrapper-first .progress .progress-circle.p32 .value-bar {
-        transform: rotate(115deg); }
-      .services .wrapper-first .progress .progress-circle.p33 .value-bar {
-        transform: rotate(119deg); }
-      .services .wrapper-first .progress .progress-circle.p34 .value-bar {
-        transform: rotate(122deg); }
-      .services .wrapper-first .progress .progress-circle.p35 .value-bar {
-        transform: rotate(126deg); }
-      .services .wrapper-first .progress .progress-circle.p36 .value-bar {
-        transform: rotate(130deg); }
-      .services .wrapper-first .progress .progress-circle.p37 .value-bar {
-        transform: rotate(133deg); }
-      .services .wrapper-first .progress .progress-circle.p38 .value-bar {
-        transform: rotate(137deg); }
-      .services .wrapper-first .progress .progress-circle.p39 .value-bar {
-        transform: rotate(140deg); }
-      .services .wrapper-first .progress .progress-circle.p40 .value-bar {
-        transform: rotate(144deg); }
-      .services .wrapper-first .progress .progress-circle.p41 .value-bar {
-        transform: rotate(148deg); }
-      .services .wrapper-first .progress .progress-circle.p42 .value-bar {
-        transform: rotate(151deg); }
-      .services .wrapper-first .progress .progress-circle.p43 .value-bar {
-        transform: rotate(155deg); }
-      .services .wrapper-first .progress .progress-circle.p44 .value-bar {
-        transform: rotate(158deg); }
-      .services .wrapper-first .progress .progress-circle.p45 .value-bar {
-        transform: rotate(162deg); }
-      .services .wrapper-first .progress .progress-circle.p46 .value-bar {
-        transform: rotate(166deg); }
-      .services .wrapper-first .progress .progress-circle.p47 .value-bar {
-        transform: rotate(169deg); }
-      .services .wrapper-first .progress .progress-circle.p48 .value-bar {
-        transform: rotate(173deg); }
-      .services .wrapper-first .progress .progress-circle.p49 .value-bar {
-        transform: rotate(176deg); }
-      .services .wrapper-first .progress .progress-circle.p50 .value-bar {
-        transform: rotate(180deg); }
-      .services .wrapper-first .progress .progress-circle.p51 .value-bar {
-        transform: rotate(184deg); }
-      .services .wrapper-first .progress .progress-circle.p52 .value-bar {
-        transform: rotate(187deg); }
-      .services .wrapper-first .progress .progress-circle.p53 .value-bar {
-        transform: rotate(191deg); }
-      .services .wrapper-first .progress .progress-circle.p54 .value-bar {
-        transform: rotate(194deg); }
-      .services .wrapper-first .progress .progress-circle.p55 .value-bar {
-        transform: rotate(198deg); }
-      .services .wrapper-first .progress .progress-circle.p56 .value-bar {
-        transform: rotate(202deg); }
-      .services .wrapper-first .progress .progress-circle.p57 .value-bar {
-        transform: rotate(205deg); }
-      .services .wrapper-first .progress .progress-circle.p58 .value-bar {
-        transform: rotate(209deg); }
-      .services .wrapper-first .progress .progress-circle.p59 .value-bar {
-        transform: rotate(212deg); }
-      .services .wrapper-first .progress .progress-circle.p60 .value-bar {
-        transform: rotate(216deg); }
-      .services .wrapper-first .progress .progress-circle.p61 .value-bar {
-        transform: rotate(220deg); }
-      .services .wrapper-first .progress .progress-circle.p62 .value-bar {
-        transform: rotate(223deg); }
-      .services .wrapper-first .progress .progress-circle.p63 .value-bar {
-        transform: rotate(227deg); }
-      .services .wrapper-first .progress .progress-circle.p64 .value-bar {
-        transform: rotate(230deg); }
-      .services .wrapper-first .progress .progress-circle.p65 .value-bar {
-        transform: rotate(234deg); }
-      .services .wrapper-first .progress .progress-circle.p66 .value-bar {
-        transform: rotate(238deg); }
-      .services .wrapper-first .progress .progress-circle.p67 .value-bar {
-        transform: rotate(241deg); }
-      .services .wrapper-first .progress .progress-circle.p68 .value-bar {
-        transform: rotate(245deg); }
-      .services .wrapper-first .progress .progress-circle.p69 .value-bar {
-        transform: rotate(248deg); }
-      .services .wrapper-first .progress .progress-circle.p70 .value-bar {
-        transform: rotate(252deg); }
-      .services .wrapper-first .progress .progress-circle.p71 .value-bar {
-        transform: rotate(256deg); }
-      .services .wrapper-first .progress .progress-circle.p72 .value-bar {
-        transform: rotate(259deg); }
-      .services .wrapper-first .progress .progress-circle.p73 .value-bar {
-        transform: rotate(263deg); }
-      .services .wrapper-first .progress .progress-circle.p74 .value-bar {
-        transform: rotate(266deg); }
-      .services .wrapper-first .progress .progress-circle.p75 .value-bar {
-        transform: rotate(270deg); }
-      .services .wrapper-first .progress .progress-circle.p76 .value-bar {
-        transform: rotate(274deg); }
-      .services .wrapper-first .progress .progress-circle.p77 .value-bar {
-        transform: rotate(277deg); }
-      .services .wrapper-first .progress .progress-circle.p78 .value-bar {
-        transform: rotate(281deg); }
-      .services .wrapper-first .progress .progress-circle.p79 .value-bar {
-        transform: rotate(284deg); }
-      .services .wrapper-first .progress .progress-circle.p80 .value-bar {
-        transform: rotate(288deg); }
-      .services .wrapper-first .progress .progress-circle.p81 .value-bar {
-        transform: rotate(292deg); }
-      .services .wrapper-first .progress .progress-circle.p82 .value-bar {
-        transform: rotate(295deg); }
-      .services .wrapper-first .progress .progress-circle.p83 .value-bar {
-        transform: rotate(299deg); }
-      .services .wrapper-first .progress .progress-circle.p84 .value-bar {
-        transform: rotate(302deg); }
-      .services .wrapper-first .progress .progress-circle.p85 .value-bar {
-        transform: rotate(306deg); }
-      .services .wrapper-first .progress .progress-circle.p86 .value-bar {
-        transform: rotate(310deg); }
-      .services .wrapper-first .progress .progress-circle.p87 .value-bar {
-        transform: rotate(313deg); }
-      .services .wrapper-first .progress .progress-circle.p88 .value-bar {
-        transform: rotate(317deg); }
-      .services .wrapper-first .progress .progress-circle.p89 .value-bar {
-        transform: rotate(320deg); }
-      .services .wrapper-first .progress .progress-circle.p90 .value-bar {
-        transform: rotate(324deg); }
-      .services .wrapper-first .progress .progress-circle.p91 .value-bar {
-        transform: rotate(328deg); }
-      .services .wrapper-first .progress .progress-circle.p92 .value-bar {
-        transform: rotate(331deg); }
-      .services .wrapper-first .progress .progress-circle.p93 .value-bar {
-        transform: rotate(335deg); }
-      .services .wrapper-first .progress .progress-circle.p94 .value-bar {
-        transform: rotate(338deg); }
-      .services .wrapper-first .progress .progress-circle.p95 .value-bar {
-        transform: rotate(342deg); }
-      .services .wrapper-first .progress .progress-circle.p96 .value-bar {
-        transform: rotate(346deg); }
-      .services .wrapper-first .progress .progress-circle.p97 .value-bar {
-        transform: rotate(349deg); }
-      .services .wrapper-first .progress .progress-circle.p98 .value-bar {
-        transform: rotate(353deg); }
-      .services .wrapper-first .progress .progress-circle.p99 .value-bar {
-        transform: rotate(356deg); }
-      .services .wrapper-first .progress .progress-circle.p100 .value-bar {
-        transform: rotate(360deg); }
+        background-color: #ddd; }
+        .services .wrapper-first .bars .progressCircle:before {
+          content: '';
+          position: absolute;
+          top: 7px;
+          left: 6px;
+          width: 121px;
+          height: 121px;
+          border-radius: 50%;
+          background-color: #f3f3f3; }
+        .services .wrapper-first .bars .progressCircle:after {
+          content: '';
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background-color: #19bd9a; }
+        .services .wrapper-first .bars .progressCircle__number {
+          position: absolute;
+          top: 50%;
+          width: 100%;
+          line-height: 1;
+          margin-top: -0.75rem;
+          text-align: center;
+          font-size: 1.5rem;
+          color: #777; }
+          .services .wrapper-first .bars .progressCircle__number em {
+            font-size: 15px; }
+        .services .wrapper-first .bars .progressCircle__textFin {
+          margin-top: 80px;
+          font-size: 14px; }
+      .services .wrapper-first .bars .progressCircle.progress--0:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(90deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--5:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(108deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--10:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(126deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--15:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(144deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--20:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(162deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--25:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(180deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--30:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(198deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--35:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(216deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--40:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(234deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--45:after {
+        background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(252deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--50:after {
+        background-image: linear-gradient(-90deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--55:after {
+        background-image: linear-gradient(-72deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--60:after {
+        background-image: linear-gradient(-54deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--65:after {
+        background-image: linear-gradient(-36deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--70:after {
+        background-image: linear-gradient(-18deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--75:after {
+        background-image: linear-gradient(0deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--80:after {
+        background-image: linear-gradient(18deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--85:after {
+        background-image: linear-gradient(36deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--90:after {
+        background-image: linear-gradient(54deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--95:after {
+        background-image: linear-gradient(72deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
+      .services .wrapper-first .bars .progressCircle.progress--100:after {
+        background-image: linear-gradient(90deg, #19bd9a 50%, transparent 50%, transparent), linear-gradient(270deg, #19bd9a 50%, #ddd 50%, #ddd); }
 
 .director {
   background: url("../img/pipl2.jpg") no-repeat center top/cover;
@@ -666,7 +479,236 @@ body {
     margin-top: -40px;
     height: 330px;
     width: 410px;
-    background: url("../img/monitor.jpg") no-repeat;
+    background: url("../img/monitorrt.png") no-repeat;
     float: right; }
+
+.back {
+  max-height: 1640px;
+  background-color: #f3f3f3;
+  padding-bottom: 100px; }
+  .back .portfolio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #333b46; }
+    .back .portfolio .portfolio-start__titel {
+      margin-top: 80px;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: 'Source Sans Pro', sans-serif; }
+    .back .portfolio .portfolio-start__text {
+      display: inline-block;
+      margin-top: 40px;
+      width: 490px;
+      line-height: 24px; }
+    .back .portfolio .portfolio-start__menu {
+      display: flex;
+      justify-content: center; }
+      .back .portfolio .portfolio-start__menu .menuCenter {
+        display: inline-block;
+        margin-top: 60px; }
+        .back .portfolio .portfolio-start__menu .menuCenter__element {
+          display: block;
+          float: left; }
+        .back .portfolio .portfolio-start__menu .menuCenter__link {
+          display: inline-block;
+          position: relative;
+          text-decoration: none;
+          margin: 20px;
+          font-weight: bolder;
+          color: #464646; }
+          .back .portfolio .portfolio-start__menu .menuCenter__link:before {
+            display: block;
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 0;
+            background: #19bd9a;
+            transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+            left: 50%;
+            bottom: 0; }
+          .back .portfolio .portfolio-start__menu .menuCenter__link:after {
+            display: block;
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 0;
+            background-color: #19bd9a;
+            transition: width 0.3s ease-in-out;
+            left: 50%;
+            bottom: 0; }
+          .back .portfolio .portfolio-start__menu .menuCenter__link:hover:before {
+            width: 50%;
+            left: 0; }
+          .back .portfolio .portfolio-start__menu .menuCenter__link:hover:after {
+            width: 50%; }
+  .back .gallery {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(25, 2vw);
+    grid-gap: 11px; }
+    .back .gallery__item1 {
+      background: url("../img/painting1.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 10; }
+    .back .gallery__item2 {
+      background: url("../img/painting2.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 7; }
+    .back .gallery__item3 {
+      background: url("../img/painting3.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 9; }
+    .back .gallery__item4 {
+      background: url("../img/painting4.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 10; }
+    .back .gallery__item5 {
+      background: url("../img/painting5.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 10;
+      grid-row-end: 20; }
+    .back .gallery__item6 {
+      background: url("../img/painting6.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 7;
+      grid-row-end: 16; }
+    .back .gallery__item7 {
+      background: url("../img/painting7.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 9;
+      grid-row-end: 19; }
+    .back .gallery__item8 {
+      background: url("../img/painting8.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 10;
+      grid-row-end: 16; }
+    .back .gallery__item9 {
+      background: url("../img/painting9.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 20;
+      grid-row-end: 26; }
+    .back .gallery__item10 {
+      background: url("../img/painting10.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 16;
+      grid-row-end: 26; }
+    .back .gallery__item11 {
+      background: url("../img/painting11.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 19;
+      grid-row-end: 26; }
+    .back .gallery__item12 {
+      background: url("../img/painting12.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 16;
+      grid-row-end: 26; }
+    .back .gallery__item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%; }
+    .back .gallery .hoverText {
+      position: relative; }
+      .back .gallery .hoverText__box {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        font-size: 14px;
+        text-transform: uppercase; }
+      .back .gallery .hoverText__start {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #19bd9a; }
+      .back .gallery .hoverText__finish {
+        margin-top: 40px;
+        padding-bottom: 30px;
+        font-size: 8px;
+        line-height: 15px;
+        color: #fff; }
+      .back .gallery .hoverText .rowSvg {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 1px; }
+        .back .gallery .hoverText .rowSvg .svg {
+          padding: 10px;
+          margin: 5px;
+          border-radius: 100%;
+          background-color: #000;
+          height: 15px;
+          width: 15px; }
+          .back .gallery .hoverText .rowSvg .svg svg {
+            fill: white; }
+          .back .gallery .hoverText .rowSvg .svg:hover {
+            background-color: #19bd9a; }
+      .back .gallery .hoverText:before {
+        content: "";
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #000;
+        height: 100%;
+        width: 100%;
+        opacity: 0.9; }
+      .back .gallery .hoverText:hover:before {
+        display: block; }
+      .back .gallery .hoverText:hover .hoverText__box {
+        display: block; }
+        .back .gallery .hoverText:hover .hoverText__box__start {
+          display: block; }
+        .back .gallery .hoverText:hover .hoverText__box__finish {
+          display: block; }
+        .back .gallery .hoverText:hover .hoverText__box .svg {
+          display: block; }
+          .back .gallery .hoverText:hover .hoverText__box .svg__first {
+            display: block; }
+  .back .finishPro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 200px;
+    background: url("../img/black.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    letter-spacing: 1px; }
+    .back .finishPro__submit {
+      margin-top: 20px;
+      text-decoration: none;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 20px;
+      padding: 9px 20px 9px 20px;
+      letter-spacing: 1px;
+      color: #fff; }
+      .back .finishPro__submit:hover {
+        background: #19bd9a; }
 
 /*# sourceMappingURL=main.css.map */

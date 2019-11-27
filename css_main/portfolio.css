@@ -1,0 +1,228 @@
+.back {
+  max-height: 1640px;
+  background-color: #f3f3f3;
+  padding-bottom: 100px; }
+  .back .portfolio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #333b46; }
+    .back .portfolio .portfolio-start__titel {
+      margin-top: 80px;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: 'Source Sans Pro', sans-serif; }
+    .back .portfolio .portfolio-start__text {
+      display: inline-block;
+      margin-top: 40px;
+      width: 490px;
+      line-height: 24px; }
+    .back .portfolio .portfolio-start__menu {
+      display: flex;
+      justify-content: center; }
+      .back .portfolio .portfolio-start__menu .menuCenter {
+        display: inline-block;
+        margin-top: 60px; }
+        .back .portfolio .portfolio-start__menu .menuCenter__element {
+          display: block;
+          float: left; }
+        .back .portfolio .portfolio-start__menu .menuCenter__link {
+          display: inline-block;
+          position: relative;
+          text-decoration: none;
+          margin: 20px;
+          font-weight: bolder;
+          color: #464646; }
+          .back .portfolio .portfolio-start__menu .menuCenter__link:before {
+            display: block;
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 0;
+            background: #19bd9a;
+            transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+            left: 50%;
+            bottom: 0; }
+          .back .portfolio .portfolio-start__menu .menuCenter__link:after {
+            display: block;
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 0;
+            background-color: #19bd9a;
+            transition: width 0.3s ease-in-out;
+            left: 50%;
+            bottom: 0; }
+          .back .portfolio .portfolio-start__menu .menuCenter__link:hover:before {
+            width: 50%;
+            left: 0; }
+          .back .portfolio .portfolio-start__menu .menuCenter__link:hover:after {
+            width: 50%; }
+  .back .gallery {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(25, 2vw);
+    grid-gap: 11px; }
+    .back .gallery__item1 {
+      background: url("../img/painting1.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 10; }
+    .back .gallery__item2 {
+      background: url("../img/painting2.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 7; }
+    .back .gallery__item3 {
+      background: url("../img/painting3.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 9; }
+    .back .gallery__item4 {
+      background: url("../img/painting4.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 10; }
+    .back .gallery__item5 {
+      background: url("../img/painting5.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 10;
+      grid-row-end: 20; }
+    .back .gallery__item6 {
+      background: url("../img/painting6.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 7;
+      grid-row-end: 16; }
+    .back .gallery__item7 {
+      background: url("../img/painting7.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 9;
+      grid-row-end: 19; }
+    .back .gallery__item8 {
+      background: url("../img/painting8.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 10;
+      grid-row-end: 16; }
+    .back .gallery__item9 {
+      background: url("../img/painting9.jpg");
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 20;
+      grid-row-end: 26; }
+    .back .gallery__item10 {
+      background: url("../img/painting10.jpg");
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 16;
+      grid-row-end: 26; }
+    .back .gallery__item11 {
+      background: url("../img/painting11.jpg");
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 19;
+      grid-row-end: 26; }
+    .back .gallery__item12 {
+      background: url("../img/painting12.jpg");
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 16;
+      grid-row-end: 26; }
+    .back .gallery__item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%; }
+    .back .gallery .hoverText {
+      position: relative; }
+      .back .gallery .hoverText__box {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        font-size: 14px;
+        text-transform: uppercase; }
+      .back .gallery .hoverText__start {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #19bd9a; }
+      .back .gallery .hoverText__finish {
+        margin-top: 40px;
+        padding-bottom: 30px;
+        font-size: 8px;
+        line-height: 15px;
+        color: #fff; }
+      .back .gallery .hoverText .rowSvg {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 1px; }
+        .back .gallery .hoverText .rowSvg .svg {
+          padding: 10px;
+          margin: 5px;
+          border-radius: 100%;
+          background-color: #000;
+          height: 15px;
+          width: 15px; }
+          .back .gallery .hoverText .rowSvg .svg svg {
+            fill: white; }
+          .back .gallery .hoverText .rowSvg .svg:hover {
+            background-color: #19bd9a; }
+      .back .gallery .hoverText:before {
+        content: "";
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #000;
+        height: 100%;
+        width: 100%;
+        opacity: 0.9; }
+      .back .gallery .hoverText:hover:before {
+        display: block; }
+      .back .gallery .hoverText:hover .hoverText__box {
+        display: block; }
+        .back .gallery .hoverText:hover .hoverText__box__start {
+          display: block; }
+        .back .gallery .hoverText:hover .hoverText__box__finish {
+          display: block; }
+        .back .gallery .hoverText:hover .hoverText__box .svg {
+          display: block; }
+          .back .gallery .hoverText:hover .hoverText__box .svg__first {
+            display: block; }
+  .back .finishPro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 200px;
+    background: url("../img/black.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    letter-spacing: 1px; }
+    .back .finishPro__submit {
+      margin-top: 20px;
+      text-decoration: none;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 20px;
+      padding: 9px 20px 9px 20px;
+      letter-spacing: 1px;
+      color: #fff; }
+      .back .finishPro__submit:hover {
+        background: #19bd9a; }
