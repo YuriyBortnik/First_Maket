@@ -44,9 +44,9 @@ header {
       text-decoration: none;
       text-transform: capitalize;
       color: #f3f3f3; }
-    .logo .menu__link__button1:hover {
-      background-color: #19bd9a;
-      transition: all 0.6s ease; }
+      .logo .menu__link__button1:hover {
+        background-color: #19bd9a;
+        transition: all 0.6s ease; }
     .logo .menu__link__button {
       text-decoration: none;
       text-transform: capitalize;
@@ -89,14 +89,14 @@ header {
     text-decoration: none;
     letter-spacing: 4px;
     color: #19bd9a; }
+    .logo .button__list:hover {
+      background-color: #19bd9a;
+      transition: all 2s ease; }
     .logo .button__list__start {
       text-decoration: none;
       text-transform: uppercase;
       font-size: 20px;
       color: #f3f3f3; }
-  .logo .button__list:hover {
-    background-color: #19bd9a;
-    transition: all 2s ease; }
 
 .text {
   padding-left: 100px;
@@ -127,13 +127,13 @@ header {
       padding: 9px 20px 9px 20px;
       letter-spacing: 4px;
       color: #333b46; }
+      .text__bat__batton:hover {
+        background-color: #19bd9a;
+        transition: all 2s ease; }
     .text__bat__read {
       text-decoration: none;
       text-transform: capitalize;
       color: #333b46; }
-    .text__bat__batton:hover {
-      background-color: #19bd9a;
-      transition: all 2s ease; }
   .text__monitor {
     background: url("../img/mobi.png") no-repeat;
     height: 340px;

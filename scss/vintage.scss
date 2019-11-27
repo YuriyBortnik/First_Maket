@@ -37,17 +37,17 @@
     }
 
     &:before {
-           content: "";
-           display: block;
-           position: absolute;
-           top: 0;
-           left: 0;
-           z-index: 1;
-           background-color: #000;
-           height: 100%;
-           width: 100%;
-           opacity: 0.8;
-         }
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background-color: #000;
+      height: 100%;
+      width: 100%;
+      opacity: 0.8;
+    }
 
     &:hover {
       &:before {
@@ -90,6 +90,11 @@
       padding: 9px 20px 9px 20px;
       letter-spacing: 1px;
       color: #fff;
+
+      &:hover {
+        background-color: #19bd9a;
+        transition: all 1s ease;
+      }
     }
 
     &__read {
@@ -97,13 +102,6 @@
       text-transform: capitalize;
       color: #fff;
       font-size: 14px;
-    }
-
-    &__link {
-      &:hover {
-        background-color: #19bd9a;
-        transition: all 1s ease;
-      }
     }
   }
 }

@@ -66,11 +66,11 @@
       padding: 9px 20px 9px 20px;
       letter-spacing: 1px;
       color: #fff; }
+      .submit__now__link:hover {
+        background-color: #19bd9a;
+        transition: all 1s ease; }
     .submit__now__read {
       text-decoration: none;
       text-transform: capitalize;
       color: #fff;
       font-size: 14px; }
-    .submit__now__link:hover {
-      background-color: #19bd9a;
-      transition: all 1s ease; }
