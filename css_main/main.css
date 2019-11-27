@@ -521,9 +521,9 @@ header {
           font-weight: bolder;
           color: #464646; }
           .back .portfolio .portfolio-start__menu .menuCenter__link:before {
+            content: "";
             display: block;
             position: absolute;
-            content: "";
             height: 2px;
             width: 0;
             background: #19bd9a;
@@ -531,9 +531,9 @@ header {
             left: 50%;
             bottom: 0; }
           .back .portfolio .portfolio-start__menu .menuCenter__link:after {
+            content: "";
             display: block;
             position: absolute;
-            content: "";
             height: 2px;
             width: 0;
             background-color: #19bd9a;

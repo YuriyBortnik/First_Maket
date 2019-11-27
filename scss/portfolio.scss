@@ -46,9 +46,9 @@
             color: #464646;
 
             &:before {
+              content: "";
               display: block;
               position: absolute;
-              content: "";
               height: 2px;
               width: 0;
               background: #19bd9a;
@@ -58,9 +58,9 @@
             }
 
             &:after {
+              content: "";
               display: block;
               position: absolute;
-              content: "";
               height: 2px;
               width: 0;
               background-color: #19bd9a;
