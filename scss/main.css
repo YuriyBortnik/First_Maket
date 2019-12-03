@@ -923,12 +923,11 @@ header {
   .testimonials .carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
     background: #19bd9a; }
 
-.lineBack {
-  background: #333b46;
-  height: 50px; }
-
 .price {
-  background: #f3f3f3;
+  background: url("../img/thumb.jpg") no-repeat;
+  /* #f3f3f3*/
+  background-size: cover;
+  background-position: 50% 50%;
   height: 640px; }
   .price .ourTitel {
     display: flex;
@@ -949,7 +948,23 @@ header {
     .price .wrapper-container .premium-exclusive {
       display: flex;
       justify-content: space-between;
-      margin-top: 50px; }
+      margin-top: 50px;
+      position: relative; }
+      .price .wrapper-container .premium-exclusive .hoverBlock {
+        position: relative; }
+        .price .wrapper-container .premium-exclusive .hoverBlock:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          background-color: #000;
+          height: 100%;
+          width: 100%;
+          opacity: 0.6; }
+        .price .wrapper-container .premium-exclusive .hoverBlock:hover:before {
+          display: none; }
       .price .wrapper-container .premium-exclusive .premium {
         width: 240px;
         height: 305px;
@@ -966,7 +981,7 @@ header {
             font-size: 18px; }
         .price .wrapper-container .premium-exclusive .premium__min {
           margin: 58px 0px 0px 0px;
-          color: #059705;
+          color: #19bd9a;
           font-size: 40px; }
         .price .wrapper-container .premium-exclusive .premium__text {
           margin-top: 12px;
@@ -1001,5 +1016,23 @@ header {
           margin: 58px 0px 0px 0px;
           color: #059705;
           font-size: 40px; }
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  background: url("../img/black.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center; }
+  .subscribe__titel {
+    padding: 80px 0px 30px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #fff; }
+  .subscribe__text {
+    margin-top: -5px;
+    color: #6d727a; }
 
 /*# sourceMappingURL=main.css.map */

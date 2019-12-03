@@ -1,0 +1,17 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  background: url("../img/black.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center; }
+  .subscribe__titel {
+    padding: 80px 0px 30px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #fff; }
+  .subscribe__text {
+    margin-top: -5px;
+    color: #6d727a; }

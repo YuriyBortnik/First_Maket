@@ -1,9 +1,8 @@
-.lineBack {
-  background: #333b46;
-  height: 50px; }
-
 .price {
-  background: #f3f3f3;
+  background: url("../img/thumb.jpg") no-repeat;
+  /* #f3f3f3*/
+  background-size: cover;
+  background-position: 50% 50%;
   height: 640px; }
   .price .ourTitel {
     display: flex;
@@ -24,7 +23,23 @@
     .price .wrapper-container .premium-exclusive {
       display: flex;
       justify-content: space-between;
-      margin-top: 50px; }
+      margin-top: 50px;
+      position: relative; }
+      .price .wrapper-container .premium-exclusive .hoverBlock {
+        position: relative; }
+        .price .wrapper-container .premium-exclusive .hoverBlock:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          background-color: #000;
+          height: 100%;
+          width: 100%;
+          opacity: 0.6; }
+        .price .wrapper-container .premium-exclusive .hoverBlock:hover:before {
+          display: none; }
       .price .wrapper-container .premium-exclusive .premium {
         width: 240px;
         height: 305px;
@@ -41,7 +56,7 @@
             font-size: 18px; }
         .price .wrapper-container .premium-exclusive .premium__min {
           margin: 58px 0px 0px 0px;
-          color: #059705;
+          color: #19bd9a;
           font-size: 40px; }
         .price .wrapper-container .premium-exclusive .premium__text {
           margin-top: 12px;
