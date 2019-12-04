@@ -1,19 +1,8 @@
-//.lineBlack {
-//  background: #333b46;
-//  height: 50px;
-//}
-
 .price {
-  background: url("../img/thumb.jpg") no-repeat; /* #f3f3f3*/
+  background: url("../img/thumb.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   height: 640px;
-
-  //&:hover {
-  //  background: black;
-  //
-  //}
-
 
   .ourTitel {
     display: flex;
@@ -67,9 +56,7 @@
         }
       }
 
-
       .premium {
-        //position: relative;
         width: 240px;
         height: 305px;
         background: #fff;

@@ -925,7 +925,6 @@ header {
 
 .price {
   background: url("../img/thumb.jpg") no-repeat;
-  /* #f3f3f3*/
   background-size: cover;
   background-position: 50% 50%;
   height: 640px; }
@@ -1017,6 +1016,60 @@ header {
           color: #059705;
           font-size: 40px; }
 
+.contact {
+  height: 610px;
+  background: #f3f3f3; }
+  .contact__contactUs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+    .contact__contactUs__titel {
+      margin: 80px 0px 40px 0px;
+      text-transform: uppercase;
+      font-size: 18px;
+      color: #333b46; }
+    .contact__contactUs__text {
+      margin: 5px 0px;
+      color: #333b46; }
+  .contact .office-conto {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 950px; }
+    .contact .office-conto .office {
+      width: 290px;
+      height: 275px;
+      background: #fff; }
+      .contact .office-conto .office__img1 {
+        width: 100%;
+        height: 50%;
+        background: url("../img/contact1.jpg"); }
+      .contact .office-conto .office__img2 {
+        width: 100%;
+        height: 50%;
+        background: url("../img/contact2.jpg"); }
+      .contact .office-conto .office__img3 {
+        width: 100%;
+        height: 50%;
+        background: url("../img/contact3.jpg"); }
+      .contact .office-conto .office__email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center; }
+        .contact .office-conto .office__email__titel {
+          margin-top: 20px;
+          text-transform: uppercase;
+          font-size: 18px;
+          color: #333b46; }
+        .contact .office-conto .office__email__text {
+          text-transform: uppercase;
+          color: #333b46;
+          margin: 5px; }
+
 .subscribe {
   display: flex;
   flex-direction: column;
@@ -1034,5 +1087,20 @@ header {
   .subscribe__text {
     margin-top: -5px;
     color: #6d727a; }
+  .subscribe .formWrap {
+    margin-top: 40px; }
+    .subscribe .formWrap__formControl {
+      border: none;
+      padding-left: 15px;
+      width: 350px;
+      height: 43px; }
+    .subscribe .formWrap__formSubmit {
+      margin-left: 3px;
+      width: 150px;
+      height: 46px;
+      border: none;
+      background: #19bd9a;
+      color: white;
+      font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */
