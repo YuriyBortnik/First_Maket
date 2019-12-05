@@ -1045,6 +1045,18 @@ header {
       width: 290px;
       height: 275px;
       background: #fff; }
+      .contact .office-conto .office__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .contact .office-conto .office__icon:hover {
+          background: url("../img/21011.jpg");
+          background-size: cover;
+          background-position: 50% 50%;
+          opacity: 1; }
+        .contact .office-conto .office__icon__svg {
+          width: 60px;
+          height: 60px; }
       .contact .office-conto .office__img1 {
         width: 100%;
         height: 50%;
