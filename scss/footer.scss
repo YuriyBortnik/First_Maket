@@ -1,0 +1,43 @@
+.footer {
+  height: 290px;
+  background: #f3f3f3;
+
+  &__finish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .footerText {
+      margin-top: 50px;
+
+      &__titel {
+        text-transform: uppercase;
+
+        &__bouncy {
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: bold;
+          color: #323a45;
+        }
+      }
+
+      &__text {
+        text-transform: capitalize;
+        color: #333B56;
+      }
+    }
+  }
+
+  .footerMenu {
+    display: flex;
+    justify-content: center;
+
+    &__icon {
+      margin: 30px 9px 0px 9px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

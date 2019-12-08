@@ -1117,3 +1117,130 @@ header {
       background: #19bd9a;
       color: white;
       font-size: 16px; }
+
+.sliders {
+  background: #252525; }
+  .sliders .main {
+    max-width: 1170px;
+    margin: 0 auto;
+    /*Styli slide*/ }
+    .sliders .main .sl__slide {
+      position: relative; }
+    .sliders .main .sl__text {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      padding: 20px 0; }
+      .sliders .main .sl__text__zag {
+        text-transform: capitalize;
+        margin: 0;
+        padding: 0 10px; }
+      .sliders .main .sl__text__desc {
+        margin: 0;
+        padding: 0 10px; }
+
+/*Адаптивность картинок и видео*/
+img {
+  max-width: 100%;
+  height: auto; }
+
+.vidres {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
+
+.vidres iframe, .vidres embed, .vidres object {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*Используется для центрирования контента*/
+.mid {
+  max-width: 1170px;
+  /*Укажите своё значение*/
+  margin: 0 auto; }
+
+/*Колонки - задаём свои, если чего то не хватает
+  по умолчанию используется расстояние в 4% между колонками*/
+.col25, .col33, .col50 {
+  float: left;
+  margin: 0 4% 0 0; }
+
+.col25 {
+  /*4 в ряд*/
+  width: 22%; }
+
+.col33 {
+  /*3 в ряд*/
+  width: 30.6666666%; }
+
+.col50 {
+  /*2 в ряд*/
+  width: 48%; }
+
+.col25:last-child,
+.col33:last-child,
+.col50:last-child {
+  margin: 0; }
+
+/*Очистка обтекания*/
+.mid:before, .cf:before, .mid:after, .cf:after {
+  content: " ";
+  display: table; }
+
+.mid:after, .cf:after {
+  clear: both; }
+
+/*Адаптивность*/
+@media screen and (max-width: 1200px) {
+  .mid {
+    margin: 0 40px; } }
+
+@media screen and (max-width: 980px) {
+  .col25 {
+    width: 50%; }
+  .col25:nth-child(even) {
+    margin: 0; } }
+
+@media screen and (max-width: 768px) {
+  .mid {
+    margin: 0 20px; }
+  .col25, .col33, .col50 {
+    width: 100%;
+    margin: 0; } }
+
+.footer {
+  height: 290px;
+  background: #f3f3f3; }
+  .footer__finish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; }
+    .footer__finish .footerText {
+      margin-top: 50px; }
+      .footer__finish .footerText__titel {
+        text-transform: uppercase; }
+        .footer__finish .footerText__titel__bouncy {
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: bold;
+          color: #323a45; }
+      .footer__finish .footerText__text {
+        text-transform: capitalize;
+        color: #333B56; }
+  .footer .footerMenu {
+    display: flex;
+    justify-content: center; }
+    .footer .footerMenu__icon {
+      margin: 30px 9px 0px 9px;
+      width: 30px;
+      height: 30px; }
