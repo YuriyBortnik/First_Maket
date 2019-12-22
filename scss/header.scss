@@ -36,7 +36,7 @@ header {
 
   .menu {
     padding: 0;
-    margin-top: -28px;
+    margin-top: -22px;
     display: flex;
     justify-content: flex-end;
 
@@ -64,6 +64,15 @@ header {
         text-decoration: none;
         text-transform: capitalize;
         color: #f3f3f3;
+        padding: 10px 0;
+
+        &:hover {
+          border-bottom: 2px solid #19bd9a;
+        }
+      }
+
+      .burger {
+        display: none;
       }
     }
   }

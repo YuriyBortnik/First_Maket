@@ -29,7 +29,7 @@ header {
 
 .logo .menu {
   padding: 0;
-  margin-top: -28px;
+  margin-top: -22px;
   display: flex;
   justify-content: flex-end; }
   .logo .menu__link {
@@ -50,7 +50,12 @@ header {
     .logo .menu__link__button {
       text-decoration: none;
       text-transform: capitalize;
-      color: #f3f3f3; }
+      color: #f3f3f3;
+      padding: 10px 0; }
+      .logo .menu__link__button:hover {
+        border-bottom: 2px solid #19bd9a; }
+    .logo .menu__link .burger {
+      display: none; }
 
 .logo .heading {
   display: flex;
