@@ -28,6 +28,9 @@
     display: flex;
     justify-content: space-between;
     height: 100%;
+    @media screen and (max-width: 1300px) {
+      margin: 50px;
+    }
 
     &__man {
       margin-top: 75px;

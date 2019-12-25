@@ -3,3 +3,19 @@
   height: 600px;
   border: none;
   margin: 0 auto; }
+  @media screen and (max-width: 1200px) {
+    .googlMaps {
+      width: 1200px;
+      height: 550px; } }
+  @media screen and (max-width: 960px) {
+    .googlMaps {
+      width: 960px;
+      height: 500px; } }
+  @media screen and (max-width: 480px) {
+    .googlMaps {
+      width: 480px;
+      height: 250px; } }
+  @media screen and (max-width: 320px) {
+    .googlMaps {
+      width: 320px;
+      height: 250px; } }

@@ -41,6 +41,9 @@
       background-color: #19bd9a; }
   .section .headline {
     height: 155px; }
+    @media screen and (max-width: 1270px) {
+      .section .headline {
+        padding: 0 50px; } }
     .section .headline__title {
       margin-top: 55px;
       width: 50%;

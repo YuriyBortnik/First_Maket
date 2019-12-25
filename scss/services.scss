@@ -1,6 +1,12 @@
 .services {
   background-color: #f3f3f3;
   height: 636px;
+  @media screen and (max-width: 1290px) {
+    padding: 0 50px;
+  }
+  @media screen and (max-width: 1200px) {
+    height: 890px;
+  }
 
   &__graphic {
     display: flex;
@@ -31,11 +37,23 @@
   .wrapper-first {
     display: flex;
     margin-top: 30px;
+    @media screen and (max-width: 1200px) {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
 
     .designer {
+      @media screen and (max-width: 1200px) {
+        margin: auto;
+      }
+
       .presention {
         display: block;
         padding: 0;
+        @media screen and (max-width: 1200px) {
+          display: inline-flex;
+        }
 
         &__icon {
           display: block;
@@ -45,6 +63,9 @@
           width: 25px;
           border-radius: 100%;
           background-color: #6d727a;
+          @media screen and (max-width: 1200px) {
+            margin: 20px;
+          }
 
           &__btr {
             fill: white;
@@ -63,24 +84,40 @@
       display: flex;
       flex-direction: column;
       padding-left: 46px;
-      width: 440px;
+      max-width: 440px;
       letter-spacing: 1px;
       word-spacing: 2px;
       line-height: 25px;
       color: #333b46;
+      @media screen and (max-width: 1200px) {
+        display: inline-flex;
+        margin: auto;
+        padding: 20px 0;
+        max-width: 586px;
+
+      }
 
       &__titel {
         margin-top: 20px;
         text-transform: capitalize;
         font-size: 16px;
+        @media screen and (max-width: 1200px) {
+          margin: auto;
+        }
       }
 
       &__text {
         margin-top: 15px;
+        @media screen and (max-width: 1200px) {
+          margin-top: 25px;
+        }
       }
 
       &__end {
         margin-top: 30px;
+        @media screen and (max-width: 1200px) {
+          margin-top: 15px;
+        }
       }
     }
 
@@ -93,6 +130,10 @@
       display: flex;
       align-items: center;
       padding-left: 107px;
+      @media screen and (max-width: 1200px) {
+        margin: auto;
+        padding: 0;
+      }
 
       .progressCircle {
         position: relative;

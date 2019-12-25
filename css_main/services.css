@@ -1,6 +1,12 @@
 .services {
   background-color: #f3f3f3;
   height: 636px; }
+  @media screen and (max-width: 1290px) {
+    .services {
+      padding: 0 50px; } }
+  @media screen and (max-width: 1200px) {
+    .services {
+      height: 890px; } }
   .services__graphic {
     display: flex;
     justify-content: center;
@@ -24,9 +30,20 @@
   .services .wrapper-first {
     display: flex;
     margin-top: 30px; }
+    @media screen and (max-width: 1200px) {
+      .services .wrapper-first {
+        margin: 0;
+        display: flex;
+        flex-direction: column; } }
+    @media screen and (max-width: 1200px) {
+      .services .wrapper-first .designer {
+        margin: auto; } }
     .services .wrapper-first .designer .presention {
       display: block;
       padding: 0; }
+      @media screen and (max-width: 1200px) {
+        .services .wrapper-first .designer .presention {
+          display: inline-flex; } }
       .services .wrapper-first .designer .presention__icon {
         display: block;
         padding: 15px;
@@ -35,6 +52,9 @@
         width: 25px;
         border-radius: 100%;
         background-color: #6d727a; }
+        @media screen and (max-width: 1200px) {
+          .services .wrapper-first .designer .presention__icon {
+            margin: 20px; } }
         .services .wrapper-first .designer .presention__icon__btr {
           fill: white; }
       .services .wrapper-first .designer .presention__icon:hover {
@@ -43,23 +63,42 @@
       display: flex;
       flex-direction: column;
       padding-left: 46px;
-      width: 440px;
+      max-width: 440px;
       letter-spacing: 1px;
       word-spacing: 2px;
       line-height: 25px;
       color: #333b46; }
+      @media screen and (max-width: 1200px) {
+        .services .wrapper-first .designers {
+          display: inline-flex;
+          margin: auto;
+          padding: 20px 0;
+          max-width: 586px; } }
       .services .wrapper-first .designers__titel {
         margin-top: 20px;
         text-transform: capitalize;
         font-size: 16px; }
+        @media screen and (max-width: 1200px) {
+          .services .wrapper-first .designers__titel {
+            margin: auto; } }
       .services .wrapper-first .designers__text {
         margin-top: 15px; }
+        @media screen and (max-width: 1200px) {
+          .services .wrapper-first .designers__text {
+            margin-top: 25px; } }
       .services .wrapper-first .designers__end {
         margin-top: 30px; }
+        @media screen and (max-width: 1200px) {
+          .services .wrapper-first .designers__end {
+            margin-top: 15px; } }
     .services .wrapper-first .bars {
       display: flex;
       align-items: center;
       padding-left: 107px; }
+      @media screen and (max-width: 1200px) {
+        .services .wrapper-first .bars {
+          margin: auto;
+          padding: 0; } }
       .services .wrapper-first .bars .progressCircle {
         position: relative;
         display: inline-block;

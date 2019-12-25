@@ -4,11 +4,7 @@
   flex-direction: column;
   background: #f3f3f3;
   height: 650px;
-  text-align: center;
-  /* You have to repeat this with each slide
-  TODO: make it easier with SCSS
-  25% movement 100/slides-num
-  */ }
+  text-align: center; }
   .testimonials__titel {
     margin: 80px 0px 35px 0px;
     text-transform: uppercase;
@@ -55,6 +51,15 @@
     line-height: 25px;
     letter-spacing: 1px;
     word-spacing: 4px; }
+    @media screen and (max-width: 1180px) {
+      .testimonials .carrousel li p.text {
+        display: flex;
+        margin: 135px 100px;
+        padding: 0;
+        max-width: 70%; } }
+    @media screen and (max-width: 960px) {
+      .testimonials .carrousel li p.text {
+        font-size: 14px; } }
   .testimonials .carrousel li div {
     background: url("../img/manC.png");
     width: 130px;
@@ -64,6 +69,9 @@
     margin-top: 40px;
     margin-left: 80px;
     vertical-align: middle; }
+    @media screen and (max-width: 1180px) {
+      .testimonials .carrousel li div {
+        margin: auto; } }
   .testimonials .carrousel li span.author {
     margin-top: 0.5em;
     font-size: 1.2em;

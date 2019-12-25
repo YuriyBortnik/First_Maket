@@ -217,6 +217,10 @@
         text-transform: uppercase;
         font-size: 14px;
         color: #19bd9a;
+        @media screen and (max-width: 1190px) {
+          padding-left: 10px;
+          font-size: 12px;
+        }
       }
 
       &__finish {
@@ -225,6 +229,11 @@
         font-size: 8px;
         line-height: 15px;
         color: #fff;
+        @media screen and (max-width: 1190px) {
+          margin: 10px;
+          padding-bottom: 2px;
+          width: 100%;
+        }
       }
 
       .rowSvg {
@@ -232,6 +241,9 @@
         flex-direction: row;
         justify-content: flex-start;
         margin-left: 1px;
+        @media screen and (max-width: 1190px) {
+          padding-left: 6px;
+        }
 
         .svg {
           padding: 10px;
@@ -240,6 +252,7 @@
           background-color: #000;
           height: 15px;
           width: 15px;
+
 
           svg {
             fill: white;

@@ -21,6 +21,9 @@
     display: flex;
     justify-content: space-between;
     height: 100%; }
+    @media screen and (max-width: 1300px) {
+      .cull .man-cull {
+        margin: 50px; } }
     .cull .man-cull__man {
       margin-top: 75px;
       background: url("../img/man.jpg") no-repeat;

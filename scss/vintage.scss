@@ -9,16 +9,25 @@
   .image {
     width: 55%;
     background: url("../img/oblozka1.jpg");
+    @media screen and (max-width: 960px) {
+      width: 45%;
+    }
   }
 
   .picture {
     width: 20%;
     background: url("../img/oblozka2.jpg");
+    @media screen and (max-width: 960px) {
+      width: 25%;
+    }
   }
 
   .img {
     width: 25%;
     background: url("../img/oblozka3.jpg");
+    @media screen and (max-width: 960px) {
+      width: 30%;
+    }
   }
 
   .blok {
@@ -66,6 +75,11 @@
   column-span: all;
   background: url("../img/feet.jpg");
   height: 113px;
+  @media screen and (max-width: 1295px) {
+    .media {
+      padding: 0 60px;
+    }
+  }
 
   &__text {
     display: flex;

@@ -158,17 +158,29 @@
         text-transform: uppercase;
         font-size: 14px;
         color: #19bd9a; }
+        @media screen and (max-width: 1190px) {
+          .back .gallery .hoverText__start {
+            padding-left: 10px;
+            font-size: 12px; } }
       .back .gallery .hoverText__finish {
         margin-top: 40px;
         padding-bottom: 30px;
         font-size: 8px;
         line-height: 15px;
         color: #fff; }
+        @media screen and (max-width: 1190px) {
+          .back .gallery .hoverText__finish {
+            margin: 10px;
+            padding-bottom: 2px;
+            width: 100%; } }
       .back .gallery .hoverText .rowSvg {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         margin-left: 1px; }
+        @media screen and (max-width: 1190px) {
+          .back .gallery .hoverText .rowSvg {
+            padding-left: 6px; } }
         .back .gallery .hoverText .rowSvg .svg {
           padding: 10px;
           margin: 5px;

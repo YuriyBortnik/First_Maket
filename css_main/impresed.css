@@ -5,17 +5,29 @@
   letter-spacing: 1px;
   word-spacing: 2px;
   line-height: 25px; }
+  @media screen and (max-width: 1280px) {
+    .director {
+      padding: 0 50px; } }
   .director__titel {
     margin: 0;
     padding-top: 80px;
     font-size: 16px;
     text-transform: uppercase; }
+    @media screen and (max-width: 960px) {
+      .director__titel {
+        padding-top: 60px; } }
   .director__text {
     margin-top: 60px;
     width: 50%; }
+    @media screen and (max-width: 960px) {
+      .director__text {
+        width: 40%; } }
   .director__titelStart {
     margin-top: 60px;
     text-transform: uppercase; }
+    @media screen and (max-width: 960px) {
+      .director__titelStart {
+        margin-top: 40px; } }
   .director__titelFinish {
     margin-top: -8px;
     text-transform: uppercase; }
@@ -23,5 +35,8 @@
     margin-top: -40px;
     height: 330px;
     width: 410px;
-    background: url("../img/monitorrt.png") no-repeat;
+    background: url("../img/1111.png") no-repeat;
     float: right; }
+    @media screen and (max-width: 1280px) {
+      .director__img {
+        padding: 0; } }

@@ -60,6 +60,9 @@
 
   .headline {
     height: 155px;
+    @media screen and (max-width: 1270px) {
+        padding: 0 50px;
+    }
 
     &__title {
       margin-top: 55px;

@@ -3,8 +3,7 @@
   background: #252525; }
   .sliders .main {
     max-width: 1170px;
-    margin: 0 auto;
-    /*Styli slide*/ }
+    margin: 0 auto; }
     .sliders .main .sl__slide {
       position: relative; }
     .sliders .main .sl__text {
@@ -16,6 +15,10 @@
       text-align: center;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
       padding: 20px 0; }
+      @media screen and (max-width: 480px) {
+        .sliders .main .sl__text {
+          padding: 0;
+          font-size: 10px; } }
       .sliders .main .sl__text__zag {
         text-transform: capitalize;
         margin: 0;
@@ -24,7 +27,6 @@
         margin: 0;
         padding: 0 10px; }
 
-/*Адаптивность картинок и видео*/
 img {
   max-width: 100%;
   height: auto; }
@@ -42,14 +44,10 @@ img {
   top: 0;
   left: 0; }
 
-/*Используется для центрирования контента*/
 .mid {
   max-width: 1170px;
-  /*Укажите своё значение*/
   margin: 0 auto; }
 
-/*Колонки - задаём свои, если чего то не хватает
-  по умолчанию используется расстояние в 4% между колонками*/
 .col25, .col33, .col50 {
   float: left;
   margin: 0 4% 0 0; }
@@ -71,7 +69,6 @@ img {
 .col50:last-child {
   margin: 0; }
 
-/*Очистка обтекания*/
 .mid:before, .cf:before, .mid:after, .cf:after {
   content: " ";
   display: table; }
@@ -79,7 +76,6 @@ img {
 .mid:after, .cf:after {
   clear: both; }
 
-/*Адаптивность*/
 @media screen and (max-width: 1200px) {
   .mid {
     margin: 0 40px; } }

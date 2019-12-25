@@ -26,11 +26,9 @@
     height: 320px;
     max-width: 1170px;
     margin: 60px 90px 30px 90px;
-    //margin: auto;
     position: relative;
     overflow: hidden;
   }
-
 
   .carrousel .slides {
     width: 400%;
@@ -66,7 +64,15 @@
     line-height: 25px;
     letter-spacing: 1px;
     word-spacing: 4px;
-
+    @media screen and (max-width: 1180px) {
+      display: flex;
+      margin: 135px 100px;
+      padding: 0;
+      max-width: 70%;
+    }
+    @media screen and (max-width: 960px) {
+      font-size: 14px;
+    }
   }
 
   .carrousel li div {
@@ -77,8 +83,10 @@
     border-radius: 50%;
     margin-top: 40px;
     margin-left: 80px;
-    //margin-right: 150px;
     vertical-align: middle;
+    @media screen and (max-width: 1180px) {
+      margin: auto;
+    }
   }
 
   .carrousel li span.author {
@@ -116,10 +124,6 @@
     font-size: 0;
   }
 
-  /* You have to repeat this with each slide
-  TODO: make it easier with SCSS
-  25% movement 100/slides-num
-  */
   #radio-1:checked ~ .slides {
     transform: translateX(0%);
   }
@@ -135,7 +139,7 @@
   #radio-4:checked ~ .slides {
     transform: translateX(-75%);
   }
-  
+
   .carrousel .slidesNavigation label:hover {
     cursor: pointer;
   }
@@ -147,24 +151,3 @@
     background: #19bd9a;
   }
 }
-
-//@media (max-width: 796px) {
-//  .carrousel {
-//    height: 8.5em;
-//  }
-//}
-//
-//@media (max-width: 480px) {
-//  .carrousel li p {
-//    padding-left: 0.5em;
-//    padding-right: 0.5em;
-//  }
-//  .carrousel li q {
-//    font-size: 1em;
-//  }
-//  .carrousel li div {
-//    width: 2em;
-//    margin-left: -1em;
-//    margin-right: 0.25em;
-//  }
-//}

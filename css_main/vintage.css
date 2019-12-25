@@ -7,12 +7,21 @@
   .vintage .image {
     width: 55%;
     background: url("../img/oblozka1.jpg"); }
+    @media screen and (max-width: 960px) {
+      .vintage .image {
+        width: 45%; } }
   .vintage .picture {
     width: 20%;
     background: url("../img/oblozka2.jpg"); }
+    @media screen and (max-width: 960px) {
+      .vintage .picture {
+        width: 25%; } }
   .vintage .img {
     width: 25%;
     background: url("../img/oblozka3.jpg"); }
+    @media screen and (max-width: 960px) {
+      .vintage .img {
+        width: 30%; } }
   .vintage .blok {
     position: relative;
     background-size: cover;
@@ -46,6 +55,9 @@
   column-span: all;
   background: url("../img/feet.jpg");
   height: 113px; }
+  @media screen and (max-width: 1295px) {
+    .submit .media {
+      padding: 0 60px; } }
   .submit__text {
     display: flex;
     justify-content: center;
