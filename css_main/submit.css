@@ -1,0 +1,45 @@
+.submit {
+  display: block;
+  column-span: all;
+  background: url("../img/feet.jpg");
+  height: 113px; }
+  @media screen and (max-width: 480px) {
+    .submit {
+      height: 150px; } }
+  .submit__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 4px; }
+    @media screen and (max-width: 480px) {
+      .submit__text {
+        margin-top: 25px;
+        text-align: center; } }
+  .submit__now {
+    margin-top: 46px;
+    float: right; }
+    @media screen and (max-width: 480px) {
+      .submit__now {
+        display: flex;
+        justify-content: center;
+        margin: 10px 160px; } }
+    .submit__now__link {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 20px;
+      padding: 9px 20px 9px 20px;
+      letter-spacing: 1px;
+      color: #fff; }
+      .submit__now__link:hover {
+        background-color: #19bd9a;
+        transition: all 1s ease; }
+    .submit__now__read {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #fff;
+      font-size: 14px; }

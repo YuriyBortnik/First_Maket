@@ -1,0 +1,28 @@
+.projekts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 235px;
+  background-color: #fff;
+  text-align: center;
+  word-spacing: 5px; }
+  @media screen and (max-width: 480px) {
+    .projekts {
+      height: 180px; } }
+  .projekts__title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #333b46; }
+  .projekts__text {
+    max-width: 540px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #6d727a; }
+
+.colorText {
+  color: #19bd9a; }
+
+.colorBlack {
+  color: #000; }

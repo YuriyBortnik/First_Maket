@@ -16,12 +16,18 @@
     @media screen and (max-width: 960px) {
       .director__titel {
         padding-top: 60px; } }
+    @media screen and (max-width: 480px) {
+      .director__titel {
+        padding-top: 40px; } }
   .director__text {
     margin-top: 60px;
     width: 50%; }
     @media screen and (max-width: 960px) {
       .director__text {
         width: 40%; } }
+    @media screen and (max-width: 480px) {
+      .director__text {
+        width: 100%; } }
   .director__titelStart {
     margin-top: 60px;
     text-transform: uppercase; }
@@ -40,3 +46,6 @@
     @media screen and (max-width: 1280px) {
       .director__img {
         padding: 0; } }
+    @media screen and (max-width: 480px) {
+      .director__img {
+        display: none; } }

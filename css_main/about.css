@@ -2,6 +2,9 @@
   background-color: #f3f3f3;
   height: 618px;
   max-width: 100%; }
+  @media screen and (max-width: 480px) {
+    .section {
+      height: 718px; } }
   .section__first {
     display: flex;
     justify-content: center;
@@ -16,17 +19,26 @@
       letter-spacing: 4px;
       word-spacing: 12px;
       color: #333b46; }
+      @media screen and (max-width: 480px) {
+        .section__first__caption {
+          margin-top: 50px; } }
     .section__first__text {
       margin-top: 30px;
-      width: 462px;
+      max-width: 462px;
       letter-spacing: 1px;
       word-spacing: 4px;
       color: #6d727a; }
+      @media screen and (max-width: 480px) {
+        .section__first__text {
+          margin: 20px 30px; } }
   .section .hovers .link {
     display: flex;
     justify-content: center;
     padding: 0;
     margin-top: 45px; }
+    @media screen and (max-width: 480px) {
+      .section .hovers .link {
+        margin: 0; } }
     .section .hovers .link__icons {
       display: block;
       padding: 15px;
@@ -50,6 +62,9 @@
       font-size: 16px;
       text-transform: capitalize;
       color: #333b46; }
+      @media screen and (max-width: 480px) {
+        .section .headline__title {
+          margin-top: 25px; } }
     .section .headline__lion {
       display: flex;
       justify-content: space-between;
@@ -57,33 +72,16 @@
       letter-spacing: 1px;
       word-spacing: 5px;
       color: #6d727a; }
+      @media screen and (max-width: 480px) {
+        .section .headline__lion {
+          flex-direction: column; } }
     .section .headline__text {
       width: 32%; }
+      @media screen and (max-width: 480px) {
+        .section .headline__text {
+          width: 100%; } }
     .section .headline__textFinish {
       width: 58%; }
-
-.projekts {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 235px;
-  background-color: #fff;
-  text-align: center;
-  word-spacing: 5px; }
-  .projekts__title {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    letter-spacing: 3px;
-    color: #333b46; }
-  .projekts__text {
-    width: 540px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    color: #6d727a; }
-
-.colorText {
-  color: #19bd9a; }
-
-.colorBlack {
-  color: #000; }
+      @media screen and (max-width: 480px) {
+        .section .headline__textFinish {
+          width: 100%; } }

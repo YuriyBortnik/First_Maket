@@ -6,7 +6,7 @@
   height: 650px;
   text-align: center; }
   .testimonials__titel {
-    margin: 80px 0px 35px 0px;
+    margin: 80px 0 35px 0;
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 1px;
@@ -16,6 +16,11 @@
     line-height: 22px;
     letter-spacing: 1px;
     color: #6d727a; }
+    @media screen and (max-width: 480px) {
+      .testimonials__text {
+        margin: auto;
+        max-width: 420px;
+        line-height: 27px; } }
   .testimonials .carrousel {
     background: #fff;
     text-align: center;
@@ -24,6 +29,10 @@
     margin: 60px 90px 30px 90px;
     position: relative;
     overflow: hidden; }
+    @media screen and (max-width: 480px) {
+      .testimonials .carrousel {
+        margin: 50px 30px 20px 30px;
+        height: 360px; } }
   .testimonials .carrousel .slides {
     width: 400%;
     left: 0;
@@ -44,7 +53,7 @@
     margin-top: 0; }
   .testimonials .carrousel li p.text {
     max-width: 60%;
-    margin: 30px 80px 0px 0px;
+    margin: 30px 80px 0 0;
     color: #6d727a;
     text-align: left;
     float: right;
@@ -60,8 +69,16 @@
     @media screen and (max-width: 960px) {
       .testimonials .carrousel li p.text {
         font-size: 14px; } }
+    @media screen and (max-width: 480px) {
+      .testimonials .carrousel li p.text {
+        margin: 110px 70px;
+        line-height: 20px;
+        word-spacing: 0;
+        text-align: center; } }
   .testimonials .carrousel li div {
     background: url("../img/manC.png");
+    background-size: cover;
+    background-position: 50% 50%;
     width: 130px;
     height: 130px;
     object-fit: cover;
@@ -72,6 +89,10 @@
     @media screen and (max-width: 1180px) {
       .testimonials .carrousel li div {
         margin: auto; } }
+    @media screen and (max-width: 480px) {
+      .testimonials .carrousel li div {
+        width: 100px;
+        height: 100px; } }
   .testimonials .carrousel li span.author {
     margin-top: 0.5em;
     font-size: 1.2em;

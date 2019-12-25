@@ -2,6 +2,9 @@
   background-color: #f3f3f3;
   height: 618px;
   max-width: 100%;
+  @media screen and (max-width: 480px) {
+    height: 718px;
+  }
 
   &__first {
     display: flex;
@@ -18,14 +21,20 @@
       letter-spacing: 4px;
       word-spacing: 12px;
       color: #333b46;
+      @media screen and (max-width: 480px) {
+        margin-top: 50px;
+      }
     }
 
     &__text {
       margin-top: 30px;
-      width: 462px;
+      max-width: 462px;
       letter-spacing: 1px;
       word-spacing: 4px;
       color: #6d727a;
+      @media screen and (max-width: 480px) {
+        margin: 20px 30px;
+      }
     }
   }
 
@@ -35,6 +44,9 @@
       justify-content: center;
       padding: 0;
       margin-top: 45px;
+      @media screen and (max-width: 480px) {
+        margin: 0;
+      }
 
       &__icons {
         display: block;
@@ -61,7 +73,7 @@
   .headline {
     height: 155px;
     @media screen and (max-width: 1270px) {
-        padding: 0 50px;
+      padding: 0 50px;
     }
 
     &__title {
@@ -70,6 +82,9 @@
       font-size: 16px;
       text-transform: capitalize;
       color: #333b46;
+      @media screen and (max-width: 480px) {
+        margin-top: 25px;
+      }
     }
 
     &__lion {
@@ -79,47 +94,23 @@
       letter-spacing: 1px;
       word-spacing: 5px;
       color: #6d727a;
+      @media screen and (max-width: 480px) {
+        flex-direction: column;
+      }
     }
 
     &__text {
       width: 32%;
+      @media screen and (max-width: 480px) {
+        width: 100%;
+      }
     }
 
     &__textFinish {
       width: 58%;
+      @media screen and (max-width: 480px) {
+        width: 100%;
+      }
     }
   }
-}
-
-.projekts {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 235px;
-  background-color: #fff;
-  text-align: center;
-  word-spacing: 5px;
-
-  &__title {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    letter-spacing: 3px;
-    color: #333b46;
-  }
-
-  &__text {
-    width: 540px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    color: #6d727a;
-  }
-}
-
-.colorText {
-  color: #19bd9a;
-}
-
-.colorBlack {
-  color: #000;
 }

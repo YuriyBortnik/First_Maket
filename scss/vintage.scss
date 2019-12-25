@@ -4,6 +4,10 @@
   text-transform: uppercase;
   font-size: 18px;
   color: #fff;
+  @media screen and (max-width: 480px) {
+    height: 180px;
+    font-size: 14px;
+  }
 
 
   .image {
@@ -69,56 +73,3 @@
     }
   }
 }
-
-.submit {
-  display: block;
-  column-span: all;
-  background: url("../img/feet.jpg");
-  height: 113px;
-  @media screen and (max-width: 1295px) {
-    .media {
-      padding: 0 60px;
-    }
-  }
-
-  &__text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 45px;
-    float: left;
-    font-size: 14px;
-    color: #fff;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-  }
-
-  &__now {
-    margin-top: 46px;
-    float: right;
-
-    &__link {
-      border-style: solid;
-      border-width: 1px;
-      border-radius: 20px;
-      padding: 9px 20px 9px 20px;
-      letter-spacing: 1px;
-      color: #fff;
-
-      &:hover {
-        background-color: #19bd9a;
-        transition: all 1s ease;
-      }
-    }
-
-    &__read {
-      text-decoration: none;
-      text-transform: capitalize;
-      color: #fff;
-      font-size: 14px;
-    }
-  }
-}
-
-
-

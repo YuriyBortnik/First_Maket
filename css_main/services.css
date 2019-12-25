@@ -21,12 +21,19 @@
       word-spacing: 5px;
       font-size: 16px;
       color: #333b46; }
+      @media screen and (max-width: 480px) {
+        .services__graphic__heading {
+          margin-top: 50px;
+          font-size: 14px; } }
     .services__graphic__text {
-      width: 660px;
+      max-width: 660px;
       letter-spacing: 1px;
       word-spacing: 3px;
       line-height: 30px;
       color: #333b46; }
+      @media screen and (max-width: 480px) {
+        .services__graphic__text {
+          line-height: 20px; } }
   .services .wrapper-first {
     display: flex;
     margin-top: 30px; }
@@ -44,6 +51,9 @@
       @media screen and (max-width: 1200px) {
         .services .wrapper-first .designer .presention {
           display: inline-flex; } }
+      @media screen and (max-width: 480px) {
+        .services .wrapper-first .designer .presention {
+          margin: 0; } }
       .services .wrapper-first .designer .presention__icon {
         display: block;
         padding: 15px;
@@ -74,6 +84,9 @@
           margin: auto;
           padding: 20px 0;
           max-width: 586px; } }
+      @media screen and (max-width: 480px) {
+        .services .wrapper-first .designers {
+          text-align: center; } }
       .services .wrapper-first .designers__titel {
         margin-top: 20px;
         text-transform: capitalize;
@@ -107,6 +120,9 @@
         height: 134px;
         border-radius: 50%;
         background-color: #ddd; }
+        @media screen and (max-width: 480px) {
+          .services .wrapper-first .bars .progressCircle {
+            margin: 4px 25px 0 -20px; } }
         .services .wrapper-first .bars .progressCircle:before {
           content: '';
           position: absolute;

@@ -2,6 +2,9 @@
   max-height: 1640px;
   background-color: #f3f3f3;
   padding-bottom: 100px; }
+  @media screen and (max-width: 480px) {
+    .back {
+      padding-bottom: 45px; } }
   .back .portfolio {
     display: flex;
     justify-content: center;
@@ -12,17 +15,27 @@
       text-transform: uppercase;
       font-size: 18px;
       font-family: 'Source Sans Pro', sans-serif; }
+      @media screen and (max-width: 480px) {
+        .back .portfolio .portfolio-start__titel {
+          margin-top: 50px;
+          font-size: 16px; } }
     .back .portfolio .portfolio-start__text {
       display: inline-block;
       margin-top: 40px;
-      width: 490px;
+      max-width: 490px;
       line-height: 24px; }
+      @media screen and (max-width: 480px) {
+        .back .portfolio .portfolio-start__text {
+          margin: 20px 25px 0 25px; } }
     .back .portfolio .portfolio-start__menu {
       display: flex;
       justify-content: center; }
       .back .portfolio .portfolio-start__menu .menuCenter {
         display: inline-block;
         margin-top: 60px; }
+        @media screen and (max-width: 480px) {
+          .back .portfolio .portfolio-start__menu .menuCenter {
+            margin-top: 20px; } }
         .back .portfolio .portfolio-start__menu .menuCenter__element {
           display: block;
           float: left; }
@@ -64,6 +77,9 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(25, 2vw);
     grid-gap: 11px; }
+    @media screen and (max-width: 480px) {
+      .back .gallery {
+        margin-top: 20px; } }
     .back .gallery__item1 {
       background: url("../img/painting1.jpg");
       grid-column-start: 1;
@@ -162,6 +178,9 @@
           .back .gallery .hoverText__start {
             padding-left: 10px;
             font-size: 12px; } }
+        @media screen and (max-width: 480px) {
+          .back .gallery .hoverText__start {
+            font-size: 8px; } }
       .back .gallery .hoverText__finish {
         margin-top: 40px;
         padding-bottom: 30px;
@@ -173,6 +192,11 @@
             margin: 10px;
             padding-bottom: 2px;
             width: 100%; } }
+  @media screen and (max-width: 1190px) and (max-width: 480px) {
+    .back .gallery .hoverText__finish {
+      margin-top: 5px;
+      font-size: 6px;
+      line-height: 8px; } }
       .back .gallery .hoverText .rowSvg {
         display: flex;
         flex-direction: row;
@@ -188,6 +212,13 @@
           background-color: #000;
           height: 15px;
           width: 15px; }
+          @media screen and (max-width: 480px) {
+            .back .gallery .hoverText .rowSvg .svg {
+              margin: -3px 8px 0 0;
+              padding: 6px;
+              height: 8px;
+              width: 8px;
+              font-size: 8px; } }
           .back .gallery .hoverText .rowSvg .svg svg {
             fill: white; }
           .back .gallery .hoverText .rowSvg .svg:hover {
@@ -227,6 +258,12 @@
     background-position: 50% 50%;
     color: #fff;
     letter-spacing: 1px; }
+    @media screen and (max-width: 480px) {
+      .back .finishPro {
+        padding: 30px;
+        text-align: center;
+        font-size: 12px;
+        height: 100px; } }
     .back .finishPro__submit {
       margin-top: 20px;
       text-decoration: none;
