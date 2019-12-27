@@ -1,12 +1,11 @@
 $('.sl').slick();
-// burgerMenu.onclick = function myFunction() {
-//     var x = document.getElementById("myMenu");
-//
-//     if(x.className === "menu") {
-//         x.className += " responsive";
-//     } else{
-//         x.className = "menu";
-//     }
-// }
 
+menu.onclick = function myFunction() {
+    var x = document.getElementById("myTopnav");
 
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}

@@ -26,6 +26,9 @@ header {
     text-transform: uppercase;
     font-size: 20px;
     color: #f3f3f3; }
+    @media screen and (max-width: 480px) {
+      .logo__bouncy__button {
+        display: none; } }
 
 .logo .menu {
   padding: 0;

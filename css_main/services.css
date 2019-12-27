@@ -7,6 +7,9 @@
   @media screen and (max-width: 1200px) {
     .services {
       height: 890px; } }
+  @media screen and (max-width: 480px) {
+    .services {
+      height: 790px; } }
   .services__graphic {
     display: flex;
     justify-content: center;
