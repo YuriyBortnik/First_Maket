@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .sliders {
   background: #252525; }
   .sliders .main {
@@ -53,15 +52,12 @@ img {
   margin: 0 4% 0 0; }
 
 .col25 {
-  /*4 в ряд*/
   width: 22%; }
 
 .col33 {
-  /*3 в ряд*/
   width: 30.6666666%; }
 
 .col50 {
-  /*2 в ряд*/
   width: 48%; }
 
 .col25:last-child,

@@ -26,9 +26,6 @@ header {
     text-transform: uppercase;
     font-size: 20px;
     color: #f3f3f3; }
-    @media screen and (max-width: 480px) {
-      .logo__bouncy__button {
-        display: none; } }
 
 .logo .menu {
   padding: 0;
@@ -67,17 +64,19 @@ header {
   flex-direction: column;
   text-align: center; }
   .logo .heading__title {
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    word-spacing: 15px;
+    margin-top: 220px;
+    padding: 0 25px;
     font-size: 25px;
     font-weight: normal;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 220px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 15px;
     color: #fff; }
   .logo .heading__subtitle {
-    max-width: 620px;
     margin-top: 26px;
+    padding: 0 25px;
+    max-width: 620px;
     line-height: 18px;
     letter-spacing: 1px;
     word-spacing: 4px;

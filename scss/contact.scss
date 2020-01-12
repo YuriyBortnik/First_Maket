@@ -38,12 +38,14 @@
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 60px;
-    max-width: 950px;
+    max-width: 960px;
     @media screen and (max-width: 480px) {
       display: flex;
       justify-content: center;
+      align-items: center;
       flex-direction: column;
       padding-top: 24px;
+      max-width: 290px;
     }
 
     .office {
@@ -51,7 +53,7 @@
       height: 275px;
       background: #fff;
       @media screen and (max-width: 480px) {
-        margin: 26px 43px;
+        margin: 26px 0;
       }
 
       &__icon {
@@ -111,11 +113,8 @@
           text-transform: uppercase;
           color: #333b46;
           margin: 5px;
-
         }
       }
     }
   }
 }
-
-

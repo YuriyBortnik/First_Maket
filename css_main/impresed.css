@@ -1,5 +1,5 @@
 .director {
-  background: url("../img/pipl2.jpg") no-repeat center top/cover;
+  background: url("../img/pipl2.jpg") no-repeat center center/cover;
   height: 390px;
   color: #fff;
   letter-spacing: 1px;
@@ -8,6 +8,9 @@
   @media screen and (max-width: 1280px) {
     .director {
       padding: 0 50px; } }
+  @media screen and (max-width: 480px) {
+    .director {
+      padding: 0 20px; } }
   .director__titel {
     margin: 0;
     padding-top: 80px;

@@ -9,7 +9,11 @@
       height: 890px; } }
   @media screen and (max-width: 480px) {
     .services {
-      height: 790px; } }
+      padding: 0 20px;
+      height: 542px; } }
+  @media screen and (max-width: 410px) {
+    .services {
+      height: 595px; } }
   .services__graphic {
     display: flex;
     justify-content: center;
@@ -68,6 +72,11 @@
         @media screen and (max-width: 1200px) {
           .services .wrapper-first .designer .presention__icon {
             margin: 20px; } }
+        @media screen and (max-width: 480px) {
+          .services .wrapper-first .designer .presention__icon {
+            margin: 10px;
+            height: 20px;
+            width: 20px; } }
         .services .wrapper-first .designer .presention__icon__btr {
           fill: white; }
       .services .wrapper-first .designer .presention__icon:hover {
@@ -115,6 +124,12 @@
         .services .wrapper-first .bars {
           margin: auto;
           padding: 0; } }
+      @media screen and (max-width: 480px) {
+        .services .wrapper-first .bars {
+          display: none; } }
+      @media screen and (max-width: 480px) {
+        .services .wrapper-first .bars {
+          padding: 16px; } }
       .services .wrapper-first .bars .progressCircle {
         position: relative;
         display: inline-block;

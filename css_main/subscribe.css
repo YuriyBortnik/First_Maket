@@ -2,9 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 380px;
-  background: url("../img/black.jpg") no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+  background: url("../img/black.jpg") no-repeat center center/cover;
   text-align: center; }
   @media screen and (max-width: 480px) {
     .subscribe {
@@ -36,6 +34,9 @@
         .subscribe .formWrap__formControl {
           width: 190px;
           height: 28px; } }
+      @media screen and (max-width: 360px) {
+        .subscribe .formWrap__formControl {
+          width: 170px; } }
     .subscribe .formWrap__formSubmit {
       margin-left: 3px;
       width: 150px;
@@ -49,3 +50,7 @@
           width: 100px;
           height: 31px;
           font-size: 14px; } }
+      @media screen and (max-width: 360px) {
+        .subscribe .formWrap__formSubmit {
+          width: 80px;
+          height: 31px; } }

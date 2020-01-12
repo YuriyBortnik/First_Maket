@@ -5,10 +5,14 @@
   font-size: 18px;
   color: #fff;
   @media screen and (max-width: 480px) {
-    height: 180px;
+    height: 170px;
     font-size: 14px;
   }
 
+  @media screen and (max-width: 400px) {
+    height: 150px;
+    font-size: 12px;
+  }
 
   .image {
     width: 55%;
@@ -47,6 +51,9 @@
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 2;
+      @media screen and (max-width: 480px) {
+        top: 40%;
+      }
     }
 
     &:before {

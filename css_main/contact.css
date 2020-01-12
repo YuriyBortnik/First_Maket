@@ -31,20 +31,22 @@
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 60px;
-    max-width: 950px; }
+    max-width: 960px; }
     @media screen and (max-width: 480px) {
       .contact .office-conto {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
-        padding-top: 24px; } }
+        padding-top: 24px;
+        max-width: 290px; } }
     .contact .office-conto .office {
       width: 290px;
       height: 275px;
       background: #fff; }
       @media screen and (max-width: 480px) {
         .contact .office-conto .office {
-          margin: 26px 43px; } }
+          margin: 26px 0; } }
       .contact .office-conto .office__icon {
         display: flex;
         justify-content: center;

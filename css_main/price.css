@@ -1,11 +1,9 @@
 .price {
-  background: url("../img/thumb.jpg") no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+  background: url("../img/thumb.jpg") no-repeat center center/cover;
   height: 640px; }
   @media screen and (max-width: 480px) {
     .price {
-      height: 1200px; } }
+      height: 1260px; } }
   .price .ourTitel {
     display: flex;
     justify-content: center;
@@ -30,10 +28,7 @@
           color: black; } }
   .price .wrapper-container {
     margin: auto;
-    max-width: 860px; }
-    @media screen and (max-width: 480px) {
-      .price .wrapper-container {
-        margin: 0 115px; } }
+    max-width: 960px; }
     .price .wrapper-container .premium-exclusive {
       display: flex;
       justify-content: space-between;
@@ -42,8 +37,10 @@
       @media screen and (max-width: 480px) {
         .price .wrapper-container .premium-exclusive {
           display: flex;
+          justify-content: center;
+          align-items: center;
           flex-direction: column;
-          margin-top: 30px; } }
+          margin-top: 40px; } }
       .price .wrapper-container .premium-exclusive .hoverBlock {
         position: relative; }
         .price .wrapper-container .premium-exclusive .hoverBlock:before {
@@ -74,7 +71,7 @@
             color: #fff;
             font-size: 18px; }
         .price .wrapper-container .premium-exclusive .premium__min {
-          margin: 58px 0px 0px 0px;
+          margin: 58px 0 0 0;
           color: #19bd9a;
           font-size: 40px; }
         .price .wrapper-container .premium-exclusive .premium__text {
@@ -89,7 +86,7 @@
         text-align: center; }
         @media screen and (max-width: 480px) {
           .price .wrapper-container .premium-exclusive .full {
-            margin: 30px 0 30px 0; } }
+            margin: 40px 0 40px 0; } }
         .price .wrapper-container .premium-exclusive .full__text {
           margin-top: 25px;
           padding-left: 35px;
@@ -110,6 +107,6 @@
             color: #fff;
             font-size: 18px; }
         .price .wrapper-container .premium-exclusive .full__min {
-          margin: 58px 0px 0px 0px;
+          margin: 58px 0 0 0;
           color: #059705;
           font-size: 40px; }

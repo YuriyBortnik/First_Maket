@@ -3,7 +3,23 @@
   height: 618px;
   max-width: 100%;
   @media screen and (max-width: 480px) {
-    height: 718px;
+    height: 648px;
+  }
+
+  @media screen and (max-width: 450px) {
+    height: 675px;
+  }
+
+  @media screen and (max-width: 420px) {
+    height: 710px;
+  }
+
+  @media screen and (max-width: 375px) {
+    height: 760px;
+  }
+
+  @media screen and (max-width: 355px) {
+    height: 840px;
   }
 
   &__first {
@@ -74,6 +90,10 @@
     height: 155px;
     @media screen and (max-width: 1270px) {
       padding: 0 50px;
+    }
+
+    @media screen and (max-width: 480px) {
+      padding: 0 20px;
     }
 
     &__title {

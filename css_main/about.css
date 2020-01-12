@@ -4,7 +4,19 @@
   max-width: 100%; }
   @media screen and (max-width: 480px) {
     .section {
-      height: 718px; } }
+      height: 648px; } }
+  @media screen and (max-width: 450px) {
+    .section {
+      height: 675px; } }
+  @media screen and (max-width: 420px) {
+    .section {
+      height: 710px; } }
+  @media screen and (max-width: 375px) {
+    .section {
+      height: 760px; } }
+  @media screen and (max-width: 355px) {
+    .section {
+      height: 840px; } }
   .section__first {
     display: flex;
     justify-content: center;
@@ -56,6 +68,9 @@
     @media screen and (max-width: 1270px) {
       .section .headline {
         padding: 0 50px; } }
+    @media screen and (max-width: 480px) {
+      .section .headline {
+        padding: 0 20px; } }
     .section .headline__title {
       margin-top: 55px;
       width: 50%;

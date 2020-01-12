@@ -6,8 +6,12 @@
   color: #fff; }
   @media screen and (max-width: 480px) {
     .vintage {
-      height: 180px;
+      height: 170px;
       font-size: 14px; } }
+  @media screen and (max-width: 400px) {
+    .vintage {
+      height: 150px;
+      font-size: 12px; } }
   .vintage .image {
     width: 55%;
     background: url("../img/oblozka1.jpg"); }
@@ -38,6 +42,9 @@
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 2; }
+      @media screen and (max-width: 480px) {
+        .vintage .blok__titel {
+          top: 40%; } }
     .vintage .blok:before {
       content: "";
       display: block;
