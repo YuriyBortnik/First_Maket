@@ -1,10 +1,13 @@
 .back {
-  max-height: 1640px;
+  max-height: 100%;
   background-color: #f3f3f3;
   padding-bottom: 100px; }
   @media screen and (max-width: 1200px) {
     .back {
       padding-bottom: 80px; } }
+  @media screen and (max-width: 480px) {
+    .back {
+      padding-bottom: 40px; } }
   .back .portfolio {
     display: flex;
     justify-content: center;
@@ -51,7 +54,6 @@
         .back .portfolio .portfolio-start .portfolioMenu .topnav a.icon {
           text-decoration: none;
           float: right;
-          margin-right: -160px;
           display: block; }
         .back .portfolio .portfolio-start .portfolioMenu nav {
           width: 100%;

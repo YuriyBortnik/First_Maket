@@ -36,8 +36,8 @@
     justify-content: center; }
     @media screen and (max-width: 480px) {
       .footer .footerMenu {
-        margin-top: -10px; } }
+        margin-top: -19px; } }
     .footer .footerMenu__icon {
-      margin: 30px 9px 0px 9px;
+      margin: 30px 9px 0 9px;
       width: 30px;
       height: 30px; }

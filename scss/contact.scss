@@ -2,7 +2,7 @@
   height: 610px;
   background: #f3f3f3;
   @media screen and (max-width: 480px) {
-    height: 1100px;
+    height: 1182px;
   }
 
   &__contactUs {
@@ -22,7 +22,7 @@
     }
 
     &__text {
-      margin: 5px 0px;
+      margin: 5px 0;
       color: #333b46;
       @media screen and (max-width: 480px) {
         margin: 0 auto;
@@ -38,12 +38,12 @@
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 60px;
-    width: 950px;
+    max-width: 950px;
     @media screen and (max-width: 480px) {
-      flex-direction: column;
+      display: flex;
       justify-content: center;
-      padding-top: 10px;
-      width: 480px;
+      flex-direction: column;
+      padding-top: 24px;
     }
 
     .office {
@@ -51,8 +51,7 @@
       height: 275px;
       background: #fff;
       @media screen and (max-width: 480px) {
-        margin: 16px 85px;
-
+        margin: 26px 43px;
       }
 
       &__icon {
@@ -61,9 +60,7 @@
         align-items: center;
 
         &:hover {
-          background: url("../img/21011.jpg");
-          background-size: cover;
-          background-position: 50% 50%;
+          background: url("../img/21011.jpg") no-repeat center center / cover;
           opacity: 1;
         }
 
@@ -71,6 +68,11 @@
           width: 60px;
           height: 60px;
         }
+      }
+
+      .cover {
+        background-size: cover;
+        background-position: 50% 50%;
       }
 
       &__img1 {

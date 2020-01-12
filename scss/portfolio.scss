@@ -1,9 +1,12 @@
 .back {
-  max-height: 1640px;
+  max-height: 100%;
   background-color: #f3f3f3;
   padding-bottom: 100px;
   @media screen and (max-width: 1200px) {
       padding-bottom: 80px;
+  }
+  @media screen and (max-width: 480px) {
+      padding-bottom: 40px;
   }
 
   .portfolio {
@@ -69,7 +72,6 @@
           .topnav a.icon {
             text-decoration: none;
             float: right;
-            margin-right: -160px;
             display: block;
           }
 

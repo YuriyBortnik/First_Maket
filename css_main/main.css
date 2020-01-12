@@ -116,100 +116,6 @@ header {
       font-size: 20px;
       color: #f3f3f3; }
 
-@media screen and (max-width: 1245px) {
-  .logo__bouncy {
-    display: block;
-    padding-top: 50px;
-    padding-left: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #f3f3f3; }
-    .logo__bouncy__button {
-      display: flex;
-      font-weight: bold;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 20px;
-      color: #f3f3f3; }
-  .logo .menu {
-    padding: 0 50px;
-    margin-top: -22px;
-    display: flex;
-    justify-content: flex-end; }
-    .logo .menu__link {
-      display: block;
-      float: left;
-      margin-left: 30px; }
-      .logo .menu__link__button1 {
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 50px;
-        padding: 2px 8px 2px 8px;
-        text-decoration: none;
-        text-transform: capitalize;
-        color: #f3f3f3; }
-        .logo .menu__link__button1:hover {
-          background-color: #19bd9a;
-          transition: all 0.6s ease; }
-      .logo .menu__link__button {
-        text-decoration: none;
-        text-transform: capitalize;
-        color: #f3f3f3;
-        padding: 10px 0; }
-        .logo .menu__link__button:hover {
-          border-bottom: 2px solid #19bd9a; }
-      .logo .menu__link .burger {
-        display: none; } }
-
-@media screen and (max-width: 716px) {
-  .logo .heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 50px;
-    text-align: center; }
-    .logo .heading__title {
-      text-transform: uppercase;
-      letter-spacing: 6px;
-      word-spacing: 15px;
-      font-size: 18px;
-      font-weight: normal;
-      font-family: 'Source Sans Pro', sans-serif;
-      margin-top: 220px;
-      color: #fff; }
-    .logo .heading__subtitle {
-      max-width: 620px;
-      margin-top: 26px;
-      line-height: 18px;
-      letter-spacing: 1px;
-      word-spacing: 4px;
-      word-wrap: break-word;
-      font-size: 12px;
-      color: #fff; }
-  .logo .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px; }
-    .logo .button__list {
-      border-style: solid;
-      border-width: 1px;
-      border-radius: 50px;
-      padding: 9px 14px 9px 14px;
-      text-decoration: none;
-      letter-spacing: 4px;
-      color: #19bd9a; }
-      .logo .button__list:hover {
-        background-color: #19bd9a;
-        transition: all 2s ease; }
-      .logo .button__list__start {
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 14px;
-        color: #f3f3f3; } }
-
 .text {
   padding-left: 100px;
   height: 487px;
@@ -818,12 +724,15 @@ header {
         display: none; } }
 
 .back {
-  max-height: 1640px;
+  max-height: 100%;
   background-color: #f3f3f3;
   padding-bottom: 100px; }
   @media screen and (max-width: 1200px) {
     .back {
       padding-bottom: 80px; } }
+  @media screen and (max-width: 480px) {
+    .back {
+      padding-bottom: 40px; } }
   .back .portfolio {
     display: flex;
     justify-content: center;
@@ -870,7 +779,6 @@ header {
         .back .portfolio .portfolio-start .portfolioMenu .topnav a.icon {
           text-decoration: none;
           float: right;
-          margin-right: -160px;
           display: block; }
         .back .portfolio .portfolio-start .portfolioMenu nav {
           width: 100%;
@@ -1485,7 +1393,7 @@ header {
   background: #f3f3f3; }
   @media screen and (max-width: 480px) {
     .contact {
-      height: 1100px; } }
+      height: 1182px; } }
   .contact__contactUs {
     display: flex;
     justify-content: center;
@@ -1500,7 +1408,7 @@ header {
         .contact__contactUs__titel {
           margin: 40px 0 15px 0; } }
     .contact__contactUs__text {
-      margin: 5px 0px;
+      margin: 5px 0;
       color: #333b46; }
       @media screen and (max-width: 480px) {
         .contact__contactUs__text {
@@ -1513,32 +1421,33 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 60px;
-    width: 950px; }
+    max-width: 950px; }
     @media screen and (max-width: 480px) {
       .contact .office-conto {
-        flex-direction: column;
+        display: flex;
         justify-content: center;
-        padding-top: 10px;
-        width: 480px; } }
+        flex-direction: column;
+        padding-top: 24px; } }
     .contact .office-conto .office {
       width: 290px;
       height: 275px;
       background: #fff; }
       @media screen and (max-width: 480px) {
         .contact .office-conto .office {
-          margin: 16px 85px; } }
+          margin: 26px 43px; } }
       .contact .office-conto .office__icon {
         display: flex;
         justify-content: center;
         align-items: center; }
         .contact .office-conto .office__icon:hover {
-          background: url("../img/21011.jpg");
-          background-size: cover;
-          background-position: 50% 50%;
+          background: url("../img/21011.jpg") no-repeat center center/cover;
           opacity: 1; }
         .contact .office-conto .office__icon__svg {
           width: 60px;
           height: 60px; }
+      .contact .office-conto .office .cover {
+        background-size: cover;
+        background-position: 50% 50%; }
       .contact .office-conto .office__img1 {
         width: 100%;
         height: 50%;
@@ -1624,11 +1533,17 @@ header {
   border: none;
   max-width: 1370px;
   height: 600px; }
-  @media screen and (max-width: 1370px) {
+  @media screen and (max-width: 1386px) {
     .googlMaps {
-      width: 1370px;
+      width: 1386px;
       max-width: 100%;
       height: 450px;
+      margin: 0 auto; } }
+  @media screen and (max-width: 480px) {
+    .googlMaps {
+      width: 480px;
+      max-width: 100%;
+      height: 350px;
       margin: 0 auto; } }
 
 .sliders {
@@ -1763,8 +1678,8 @@ img {
     justify-content: center; }
     @media screen and (max-width: 480px) {
       .footer .footerMenu {
-        margin-top: -10px; } }
+        margin-top: -19px; } }
     .footer .footerMenu__icon {
-      margin: 30px 9px 0px 9px;
+      margin: 30px 9px 0 9px;
       width: 30px;
       height: 30px; }
