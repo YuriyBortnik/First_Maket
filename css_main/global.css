@@ -1,8 +1,12 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   max-width: 1370px;
   height: 100%;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px; }
+
+::selection {
+  background: #000;
+  color: #fff; }

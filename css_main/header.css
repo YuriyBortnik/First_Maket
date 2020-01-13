@@ -1,7 +1,3 @@
-::selection {
-  background: #000;
-  color: #fff; }
-
 header {
   background: url("../img/banner.jpg") no-repeat center top/cover;
   height: 740px;
@@ -19,6 +15,15 @@ header {
   text-transform: uppercase;
   font-size: 20px;
   color: #f3f3f3; }
+  @media screen and (max-width: 1230px) {
+    .logo__bouncy {
+      padding-left: 100px; } }
+  @media screen and (max-width: 768px) {
+    .logo__bouncy {
+      padding-left: 80px; } }
+  @media screen and (max-width: 640px) {
+    .logo__bouncy {
+      display: none; } }
   .logo__bouncy__button {
     display: flex;
     font-weight: bold;
@@ -28,14 +33,26 @@ header {
     color: #f3f3f3; }
 
 .logo .menu {
-  padding: 0;
-  margin-top: -22px;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  margin-top: -22px;
+  padding: 0; }
+  @media screen and (max-width: 1230px) {
+    .logo .menu {
+      padding-right: 100px; } }
+  @media screen and (max-width: 768px) {
+    .logo .menu {
+      padding-right: 80px; } }
+  @media screen and (max-width: 640px) {
+    .logo .menu {
+      display: none; } }
   .logo .menu__link {
     display: block;
     float: left;
     margin-left: 30px; }
+    @media screen and (max-width: 768px) {
+      .logo .menu__link {
+        margin-left: 12px; } }
     .logo .menu__link__button1 {
       border-style: solid;
       border-width: 1px;
@@ -54,8 +71,6 @@ header {
       padding: 10px 0; }
       .logo .menu__link__button:hover {
         border-bottom: 2px solid #19bd9a; }
-    .logo .menu__link .burger {
-      display: none; }
 
 .logo .heading {
   display: flex;

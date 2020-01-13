@@ -182,6 +182,9 @@
           .back .gallery .hoverText__start {
             padding-left: 10px;
             font-size: 12px; } }
+        @media screen and (max-width: 768px) {
+          .back .gallery .hoverText__start {
+            font-size: 12px; } }
         @media screen and (max-width: 480px) {
           .back .gallery .hoverText__start {
             font-size: 8px; } }
@@ -199,6 +202,10 @@
             margin: 10px;
             padding-bottom: 2px;
             width: 100%; } }
+  @media screen and (max-width: 1190px) and (max-width: 768px) {
+    .back .gallery .hoverText__finish {
+      font-size: 7px;
+      line-height: 12px; } }
   @media screen and (max-width: 1190px) and (max-width: 480px) {
     .back .gallery .hoverText__finish {
       margin-top: 0;
@@ -219,6 +226,13 @@
           background-color: #000;
           height: 15px;
           width: 15px; }
+          @media screen and (max-width: 768px) {
+            .back .gallery .hoverText .rowSvg .svg {
+              margin: -3px 8px 0 0;
+              padding: 8px;
+              height: 12px;
+              width: 12px;
+              font-size: 12px; } }
           @media screen and (max-width: 480px) {
             .back .gallery .hoverText .rowSvg .svg {
               margin: -3px 8px 0 0;

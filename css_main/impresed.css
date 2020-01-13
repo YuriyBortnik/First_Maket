@@ -19,15 +19,21 @@
     @media screen and (max-width: 960px) {
       .director__titel {
         padding-top: 60px; } }
+    @media screen and (max-width: 768px) {
+      .director__titel {
+        padding-top: 42px; } }
     @media screen and (max-width: 480px) {
       .director__titel {
-        padding-top: 40px; } }
+        padding-top: 65px; } }
   .director__text {
     margin-top: 60px;
     width: 50%; }
     @media screen and (max-width: 960px) {
       .director__text {
         width: 40%; } }
+    @media screen and (max-width: 768px) {
+      .director__text {
+        margin-top: 30px; } }
     @media screen and (max-width: 480px) {
       .director__text {
         width: 100%; } }

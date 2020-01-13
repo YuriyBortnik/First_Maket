@@ -27,9 +27,15 @@
     letter-spacing: 4px;
     word-spacing: 12px;
     color: #333b46; }
+    @media screen and (max-width: 768px) {
+      .text__titel {
+        margin-top: 60px; } }
     @media screen and (max-width: 480px) {
       .text__titel {
         margin-top: 40px; } }
+    @media screen and (max-width: 412px) {
+      .text__titel {
+        margin-top: 20px; } }
   .text__texts {
     margin-top: 50px;
     max-width: 465px;
@@ -38,9 +44,10 @@
     word-spacing: 4px;
     word-wrap: break-word;
     color: #81868e; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
       .text__texts {
-        margin-top: 35px; } }
+        margin-top: 35px;
+        max-width: 340px; } }
   .text__bat {
     margin-top: 50px; }
     @media screen and (max-width: 480px) {
@@ -67,6 +74,9 @@
     float: right;
     margin-top: -274px;
     margin-right: 100px; }
+    @media screen and (max-width: 768px) {
+      .text__monitor {
+        margin-top: -315px; } }
     @media screen and (max-width: 480px) {
       .text__monitor {
         display: none; } }

@@ -83,6 +83,9 @@
         margin: 135px 100px;
         padding: 0;
         max-width: 70%; } }
+    @media screen and (max-width: 768px) {
+      .testimonials .carrousel li p.text {
+        margin: 94px 82px; } }
     @media screen and (max-width: 960px) {
       .testimonials .carrousel li p.text {
         font-size: 14px; } }
@@ -94,8 +97,11 @@
         text-align: center; } }
     @media screen and (max-width: 385px) {
       .testimonials .carrousel li p.text {
-        font-size: 12px;
-        line-height: 15px; } }
+        font-size: 14px;
+        line-height: 20px; } }
+    @media screen and (max-width: 320px) {
+      .testimonials .carrousel li p.text {
+        line-height: 16px; } }
   .testimonials .carrousel li div {
     margin-top: 40px;
     margin-left: 80px;
@@ -107,6 +113,12 @@
     @media screen and (max-width: 1180px) {
       .testimonials .carrousel li div {
         margin: auto; } }
+    @media screen and (max-width: 768px) {
+      .testimonials .carrousel li div {
+        margin-top: -10px;
+        margin-left: 41%;
+        width: 100px;
+        height: 100px; } }
     @media screen and (max-width: 480px) {
       .testimonials .carrousel li div {
         margin-top: 18px;

@@ -6,10 +6,10 @@
   @media screen and (max-width: 1200px) {
     .submit {
       padding: 0 30px 0 30px; } }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     .submit {
       height: 130px; } }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     .submit .media {
       display: flex;
       justify-content: center;
@@ -25,6 +25,10 @@
     color: #fff;
     letter-spacing: 1px;
     word-spacing: 4px; }
+    @media screen and (max-width: 768px) {
+      .submit .media__text {
+        margin: 0;
+        text-align: center; } }
     @media screen and (max-width: 480px) {
       .submit .media__text {
         margin: 0;
@@ -33,7 +37,7 @@
   .submit .media__now {
     margin-top: 46px;
     float: right; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
       .submit .media__now {
         padding-top: 20px;
         float: none;
@@ -45,7 +49,7 @@
       padding: 9px 20px 9px 20px;
       letter-spacing: 1px;
       color: #fff; }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 768px) {
         .submit .media__now__link {
           padding: 6px 10px 6px 10px;
           font-size: 12px; } }
