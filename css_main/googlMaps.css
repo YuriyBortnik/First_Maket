@@ -1,8 +1,14 @@
 .googlMaps {
   display: block;
-  border: none;
   max-width: 1370px;
-  height: 600px; }
+  height: 600px;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  border-width: 0;
+  margin: 0; }
   @media screen and (max-width: 1386px) {
     .googlMaps {
       width: 1386px;
