@@ -1,8 +1,12 @@
 .footer {
   height: 290px;
   background: #f3f3f3;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     height: 190px;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 150px;
   }
 
   &__finish {
@@ -14,8 +18,12 @@
 
     .footerText {
       margin-top: 50px;
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 768px) {
         margin-top: 10px;
+      }
+
+      @media screen and (max-width: 480px) {
+        margin-top: -14px;
       }
 
       &__titel {
@@ -26,7 +34,8 @@
           font-size: 20px;
           font-weight: bold;
           color: #323a45;
-          @media screen and (max-width: 480px) {
+
+          @media screen and (max-width: 768px) {
             font-size: 14px;
           }
         }
@@ -35,7 +44,7 @@
       &__text {
         text-transform: capitalize;
         color: #333B56;
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 768px) {
           font-size: 12px;
         }
       }
@@ -45,8 +54,13 @@
   .footerMenu {
     display: flex;
     justify-content: center;
-    @media screen and (max-width: 480px) {
+
+    @media screen and (max-width: 768px) {
       margin-top: -19px;
+    }
+
+    @media screen and (max-width: 480px) {
+      margin-top: -24px;
     }
 
     &__icon {

@@ -271,7 +271,7 @@ header {
     @media screen and (max-width: 768px) {
       .text__texts {
         margin-top: 35px;
-        max-width: 340px; } }
+        max-width: 306px; } }
   .text__bat {
     margin-top: 50px; }
     @media screen and (max-width: 480px) {
@@ -893,11 +893,14 @@ header {
           text-align: center;
           padding: 14px 16px;
           font-size: 16px; }
+          @media screen and (max-width: 700px) {
+            .back .portfolio .portfolio-start .portfolioMenu .topnav .menuCenter {
+              padding: 14px 10px; } }
           .back .portfolio .portfolio-start .portfolioMenu .topnav .menuCenter:hover {
             border-bottom: 2px solid #19bd9a; }
         .back .portfolio .portfolio-start .portfolioMenu .topnav .icon {
           display: none; }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 620px) {
         .back .portfolio .portfolio-start .portfolioMenu .topnav a:not(:first-child) {
           display: none; }
         .back .portfolio .portfolio-start .portfolioMenu .topnav a.icon {
@@ -1832,9 +1835,12 @@ img {
 .footer {
   height: 290px;
   background: #f3f3f3; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     .footer {
       height: 190px; } }
+  @media screen and (max-width: 480px) {
+    .footer {
+      height: 150px; } }
   .footer__finish {
     display: flex;
     justify-content: center;
@@ -1843,9 +1849,12 @@ img {
     text-align: center; }
     .footer__finish .footerText {
       margin-top: 50px; }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 768px) {
         .footer__finish .footerText {
           margin-top: 10px; } }
+      @media screen and (max-width: 480px) {
+        .footer__finish .footerText {
+          margin-top: -14px; } }
       .footer__finish .footerText__titel {
         text-transform: uppercase; }
         .footer__finish .footerText__titel__bouncy {
@@ -1853,21 +1862,24 @@ img {
           font-size: 20px;
           font-weight: bold;
           color: #323a45; }
-          @media screen and (max-width: 480px) {
+          @media screen and (max-width: 768px) {
             .footer__finish .footerText__titel__bouncy {
               font-size: 14px; } }
       .footer__finish .footerText__text {
         text-transform: capitalize;
         color: #333B56; }
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 768px) {
           .footer__finish .footerText__text {
             font-size: 12px; } }
   .footer .footerMenu {
     display: flex;
     justify-content: center; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
       .footer .footerMenu {
         margin-top: -19px; } }
+    @media screen and (max-width: 480px) {
+      .footer .footerMenu {
+        margin-top: -24px; } }
     .footer .footerMenu__icon {
       margin: 30px 9px 0 9px;
       width: 30px;
