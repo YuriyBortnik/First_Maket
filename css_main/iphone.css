@@ -5,14 +5,11 @@
   @media screen and (max-width: 480px) {
     .text {
       padding: 15px;
-      height: 400px;
+      height: 430px;
       text-align: center; } }
   @media screen and (max-width: 350px) {
     .text {
       height: 500px; } }
-  @media screen and (max-width: 325px) {
-    .text {
-      height: 520px; } }
   .text__titel {
     margin-top: 114px;
     font-size: 16px;
