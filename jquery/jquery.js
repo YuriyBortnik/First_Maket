@@ -9,6 +9,7 @@ $(document).ready(function () {
         }
     };
 
-    $('.sl').slick();
+    $(function () {
+        $('.sl').slick();
+    });
 });
-
