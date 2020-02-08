@@ -2,7 +2,6 @@
 body {
   margin: 0 auto;
   padding: 0;
-  max-width: 1370px;
   height: 100%;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -13,13 +12,12 @@ body {
   color: #fff; }
 
 .topMemu {
-  padding-top: 48px; }
+  padding-top: 10px; }
   .topMemu .mobile-menu {
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    max-width: 1370px;
     margin: 0 auto;
     top: 0;
     background-color: #19bd9a;
@@ -1319,7 +1317,6 @@ header {
           line-height: 27px; } }
   .testimonials .carrousel {
     margin: 45px 90px 30px 90px;
-    max-width: 1170px;
     height: 320px;
     background: #fff;
     text-align: center;
@@ -1355,7 +1352,7 @@ header {
   .testimonials .carrousel li p {
     margin-top: 0; }
   .testimonials .carrousel li p.text {
-    max-width: 60%;
+    max-width: 70%;
     margin: 54px 110px 0 0;
     color: #6d727a;
     text-align: left;
@@ -1715,7 +1712,6 @@ header {
 
 .googlMaps {
   display: block;
-  max-width: 1370px;
   height: 600px;
   z-index: 0;
   left: 0;
