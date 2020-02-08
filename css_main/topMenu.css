@@ -42,7 +42,6 @@
     .topMemu .mobile-menu__icon::before {
       top: -8px; }
     .topMemu .mobile-menu__container {
-      max-width: 1370px;
       margin: 0 auto;
       position: fixed;
       text-align: center;
