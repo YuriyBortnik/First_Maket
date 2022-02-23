@@ -6,3 +6,6 @@ BOUNCY1.psd
 gulpfile.js
 fonts
 node_module
+slick
+sliders.scss
+slick-theme.scss
